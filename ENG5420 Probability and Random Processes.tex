@@ -1,0 +1,121 @@
+\documentclass[11pt]{article}
+    \usepackage{caption}
+    \setlength{\parindent}{0pt}
+    \DeclareCaptionType{equ}[][]
+    \usepackage[svgnames]{xcolor}
+    
+    \newcommand*{\plogo}{\fbox{$\mathcal{BM}$}}
+    
+    \usepackage{PTSerif}
+    
+    \begin{document} 
+        
+    \begin{titlepage}
+    
+        \raggedleft
+        
+        \vspace*{\baselineskip}
+        
+        {\Large Bryan Melanson}
+        
+        \vspace*{0.167\textheight}
+        
+        \textbf{\LARGE How I Learned to Not Fail}\\[\baselineskip]
+        
+        {\textcolor{Red}{\Huge Probability \& Random Processes}}\\[\baselineskip]
+        
+        {\Large \textit{While never going to class}}
+        
+        \vfill
+        
+        {\large Computer Engineering 2020 ~~\plogo}
+        
+        \vspace*{3\baselineskip}
+    
+    \end{titlepage}
+
+    \pagebreak
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    \tableofcontents
+
+    \pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    \section{Descriptive Statistics}
+
+    \subsection{Statistics}
+    Statistics are the summarization of a set of data that has been collected, which demonstrates random variation. \textit{Extracting meaning from data.}
+
+    \subsection{Inferential Statistics}
+    Making inferences abotu a situation based on data, such as forecasting. \\
+    Descriptive statistics can be the basis for inferences.
+
+    \subsection{Representative Values}
+    \begin{enumerate}
+        \item{Mean} 
+        \item{Median}
+        \item{Mode}
+        \item{Range \textit{- [Min, Max]}}
+        \item{Variance \textit{- Average of deviation squared from the mean}}
+        \item{Standard Deviation \textit{- Measure of average absolute deviation}}
+        \item{Skewness \textit{- Measure of the shape of the distribution funciton}}
+        \item{Quantiles \textit{- Generalizatino of the median to percentiles}}
+    \end{enumerate}
+    \subsection{Observational vs. Experimental Data}
+    Experimental involves manipulation objects to determine cause and effect in data. Observational refers to naturally occurring events.
+    \pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    \section{Basic Probability}
+    \subsection{Probability Calculus}
+    Probability events have a total probability between zero and one.
+        \begin{equ}[!ht]
+            \begin{equation}
+              Pr[An Event] = 1
+            \end{equation}
+          \caption{An event which is sure to happen}
+        \end{equ} 
+
+The definition of probability for how often an event is observed can be related to the number of repetiions of the experiment. \\
+
+
+\begin{equ}[!ht]
+    \begin{equation}
+      Pr[Heads] =  \frac{\textrm{number } k \textrm{ of Heads in }N \textrm{ coin tosses}}{\textrm{ coin tosses}}
+    \end{equation}
+  \caption{Counting the probability of heads in a set of coin tosses}
+\end{equ} 
+
+The larger the number of repetiions, the higher accuracy with which we can predict the likelihood of an event happening.
+
+\subsection{Probability Model}
+
+\subsubsection{Events}
+Events are elements in the set of possible outcomes in an experiment.
+
+\subsubsection{Sample Space}
+The set of all possible outcomes for an experiment.
+
+\begin{equ}[!ht]
+    \begin{equation}
+      S = \{1,2,3,4,5,6\}
+    \end{equation}
+  \caption{The sample space for a dice roll}
+\end{equ} 
+
+\begin{equ}[!ht]
+    \begin{equation}
+      A_1 = \{1\}, A_2 = \{1,2,5\}
+    \end{equation}
+  \caption{Subsets containing events in the sample space}
+\end{equ} 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    \end{document}
