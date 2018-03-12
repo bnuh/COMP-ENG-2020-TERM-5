@@ -228,7 +228,7 @@ Cases when its important what order events occur in. Did we draw the Ace of Spad
 When a trial is repeated $k$ times, we form a sample space of outcomes made up of $k$ number of events. \\
 
 
-\textbf{The Rule of Product} \\
+\subsubsection{The Rule of Product}
 
 How many possibilities are there for the formation of $k$-tuples, if there are $N_i$ choices for the $i$th  element? \\
 
@@ -239,7 +239,57 @@ How many possibilities are there for the formation of $k$-tuples, if there are $
   \caption{The Rule of Product}
 \end{equ} 
 
-By this rule, the number of possibilities when rolling a dice, then flipping a coin, will be $6 * 2$. In the case where same number of outcomes are possible with each experiment, the number of $k$-tuples is $N^k$, or $2^k$ in the case of repeated coin tosses.
+By this rule, the number of possibilities when rolling a dice, then flipping a coin, will be $6 * 2$. In the case where same number of outcomes are possible with each experiment, the number of $k$-tuples is $N^k$, or $2^k$ in the case of repeated coin tosses. \\
+
+
+\subsubsection{Permutations or Unordered Outcomes}
+
+We no longer care in what order outcomes occur, we are only concerned with the number of outcomes of a certain sort across all trials. \\
+
+This involves the number of ways we can choose $k$ objects in $N$ choices.
+
+\subsubsection*{Permutations Without Replacement}
+
+\begin{itemize}
+    \item Experiments with two or more possible outcomes
+    \item These trials can be repeated independently for $N$ times
+    \item For each $k$th trial the outcome from the previous is removed
+    \item Probabilities change for each consecutive trial
+\end{itemize}
+
+The resulting set is ordered, but as mentioned before, we only care about the number of possible permutations from these elements. \\
+
+The number of possible sets is $N!$ or $N * (N-1) * (N-2) * ... 2 * 1$ \\
+
+\textbf{Example} - The 13 cards of a suit in a deck of cards can be laid out in $13!$ or $6227020800$ different ordered sequences. \\
+
+If you want just $k$ draws from $N$ possible ways to draw the object, the number of sets will instead be from $N$ to $(N-k+1)$ \\
+
+Consider this problem - Lisa has 13 different ornaments and wants to put 4 ornaments on her mantle. In how many ways is this possible? \\
+
+
+Using the product rule, Lisa has 13 choices for which ornament to put in the first position, 12 for the second position, 11 for the third position, and 10 for the fourth position. So the total number of choices she has is $13 * 12 * 11 * 10$. Using the factorial notation, the total number of choices is $\frac{13!}{9!}$. \\
+
+From this example, we can see that if we have $N$ objects and want to arrange $k$ of them in a row, there are $\frac{N!}{(N-k)!}$ ways to do this. \\
+
+\textbf{The notation for permutations is $P^{13}_3$}
+\subsubsection{Combinations or Non-Unique Outcomes}
+
+A \textit{combination} is a way of choosing elements from a set in which order does not matter. \\
+
+
+Consider the following example: Lisa has $13$ different ornaments and she wants to give $3$ ornaments to her mom as a birthday gift (the order of the gifts does not matter). How many ways can she do this? \\
+
+We can think of Lisa giving her mom a first ornament, a second ornament, a third ornament, etc. This can be done in $P^{13}_3$ ways. However, Lisa's mom is receiving all three ornaments at once, so the order Lisa decides on the ornaments does not matter. 
+There are $3!$ reorderings of the chosen ornaments, implying the total number of ways for Lisa to give her mom an unordered set of $5$ ornaments is $\frac{13!}{10!3!}$. \\
+
+\begin{equ}[!ht]
+    \begin{equation}
+        \frac{N!}{N!(N!-k!)}
+    \end{equation}
+  \caption{Rule of Combinations or Unordered Permutations}
+\end{equ} 
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
