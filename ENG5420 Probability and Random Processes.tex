@@ -296,7 +296,80 @@ The number of ways to choose $k$ objects \textit{in any order} from a set of $N$
 
 \subsection{Conditional Probability}
 
+A \textbf{conditional probability} is a probability that a certain event will occur given some knowledge about the outcome or some other event. \\
+
+$P[A|B]$ is a conditional probability, it is read as "Probability of A given B". \\
+
+\begin{equ}[!ht]
+    \begin{equation}
+        Pr[A|B] = \frac{Pr[AB]}{Pr[B]}
+    \end{equation}
+  \caption{Rule of Conditional Probability}
+\end{equ} 
+
+A simple example - A fair 12-sided die is rolled. What is the probability that the roll is a 3 given that the roll is odd? \\
+
+This is $Pr[3|Odd]$ or $\frac{Pr[3]Pr[Odd]}{Pr[Odd]}$ \\
+
+Because $B$ has already happened, the intersection of $B$ and $A$ can have the $B$ probability removed, because it is statistically redundant. \\
+
+\begin{equ}[!ht]
+    \begin{equation}
+        Pr[A|B] = \frac{Pr[AB]}{Pr[B]} = \frac{Pr[B]Pr[A]}{Pr[A]} = Pr[B]
+    \end{equation}
+  \caption{Conditional Probability if statiscally independent}
+\end{equ} 
+
+\subsubsection{Bayes Theorem}
+
+When attempting to compute the conditional probability of two events, when only one event is known, the Bayes Theorem allows for a workaround. \\
+
+\textit{Consider $H$ to be Hypothesis, and $E$ to be Evidence}
+
+\begin{equ}[!ht]
+    \begin{equation}
+        Pr[H|E] = \frac{Pr[E|H] Pr[H]}{Pr[E]}
+    \end{equation}
+  \caption{Bayes Theorem}
+\end{equ} 
+
+We can expand the equation in the numerator to demonstrate fully: \\
+
+$Pr[E|H]Pr[H] = \frac{Pr[EH]}{Pr[H]}*Pr[H] = Pr[EH] = Pr[HE]$ \\ 
+
+Therefore, $Pr[H|E]$ or $\frac{Pr[HE]}{Pr[E]}$ can be found from $Pr[E|H]$ and vice versa. 
+
+\subsubsection{Total Probability}
+
+If $A_1, A_2$, and $A_3$ form a partition of the sample space, for each $A_i$
+
+\begin{equ}[!ht]
+    \begin{equation}
+        Pr[A_i|B] = \frac{Pr[B|A_i] Pr[A_i]}{Pr[B]}, i = 1,2,3
+    \end{equation}
+  \caption{Total Probability}
+\end{equ} 
+
+Knowing this, $Pr[B]$ can be found from $Pr[B|A_1] + Pr[B|A_2] + Pr[B|A_3]$
+
+\begin{equ}[!ht]
+    \begin{equation}
+        Pr[A_i|B] = \frac{Pr[B|A_i] Pr[A_i]}{Pr[B|A_1] + Pr[B|A_2] + Pr[B|A_3]}, i = 1,2,3
+    \end{equation}
+  \caption{Bayes General Rule}
+\end{equ} 
+
+\begin{equ}[!ht]
+    \begin{equation}
+        Pr[B] = Pr[B|A_1] + Pr[B|A_2] + Pr[B|A_3]
+    \end{equation}
+  \caption{Total Probability, when $A_1$, $A_2$, $A_3$ form a partition}
+\end{equ}
+
+\pagebreak
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Random Variables}
 
 \end{document}
