@@ -1,5 +1,7 @@
 \documentclass[11pt]{article}
     \usepackage{caption}
+    \usepackage{graphicx}
+    \graphicspath{ {img/} }
     \setlength{\parindent}{0pt}
     \DeclareCaptionType{equ}[][]
     \usepackage[svgnames]{xcolor}
@@ -209,7 +211,7 @@ $ = (0.5)^3 + (0.5)^2*(0.5) + (0.5)^2*(0.5) + (0.5)*(0.5)^2$ \\
 
 $ = 0.5 $ \\
 
-$Pr[\textit{No heads}] = Pr[TTT] = q^3 = 0.125]$
+$Pr[\textit{No heads}] = Pr[TTT] = q^3 = 0.125$
 
 \subsubsection{Sampling With Replacement}
 
@@ -371,5 +373,272 @@ Knowing this, $Pr[B]$ can be found from $Pr[B|A_1] + Pr[B|A_2] + Pr[B|A_3]$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Random Variables}
+Random variables deal with a function $X$ which maps a number $x$ from the sample space $S$. The number can be placed on the real number line, and a probability assigned to it based on its random occurrence.
+\subsection{Discrete Probability Distributions}
+Discrete random variables involve events with a discrete set of values.
+\subsubsection{Probability Mass Function}
+The \textit{Probability Mass Function}, or \textbf{PMF} $f_k [k]$ is a plotting of the probability of all events associated with a random variable $K$. The sum of all amplitudes of the graph, $\sum f_k [k]$ will be 1.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{pmf}
+    \caption{Probability Mass Function}
+    \label{fig:pmf}
+\end{figure}
+
+For a given value $k$, the probability of this value is $f_k[k] = Pr[K = k]$.
+\subsubsection{Bernoulli Random Variable}
+A Bernoulli RV is a discrete variable which will only produce values of $1$ and $0$. Therefore, the likelhood of one will be $p$ and the other will be $1-p$.
+\subsubsection{Binomial Random Variable}
+The Bernoulli concept can be extended with combinatorics, for example in the base of binary transmission error. When detecting the error in the first $n$-bits of a $k$-bit transmission, $f_K[k] =$ $n\choose{k}$ $p^k(1-p)^{(n-k)}$. 
+\\ 
+
+As shown in earlier sections, there are $n\choose{k}$ possible variations of $k$ bits in an $n$-bit long transmission. If our likelihood of non-error bits is $p$, and error is $(1-p)$, the above will be intuitively correct.
+\subsubsection{Geometric Random Variable}
+Geometric RVs concern a wait for an event to happen. Should the expected event be given $p$ probability, there will be $k$ consecutive $(1-p)$ events before the $p$ occurs. Therefore, as seen in the graph below, the event occuring at the second transmission will be $(1-p)^2p$. 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{geo1}
+    \caption{Geometric Random Variable}
+    \label{fig:geo1}
+\end{figure}
+
+\begin{equ}[!ht]
+    \begin{equation}
+        f_K[k] = p(1-p)^k
+    \end{equation}
+  \caption{Geometric Random Variable PMF (0 $\leq$ k $<$ $\infty$)}
+\end{equ} 
+
+\subsubsection{Poisson Random Variable}
+For a situtation where revents occur randomly at a given rate $\lambda$ over a certain time interval $t$, the probability of $k$ events happening within this time frame has been experimentally verified with $\lambda t$ representing the average.
+ 
+\begin{equ}[!ht]
+    \begin{equation}
+        f_K[k] = \frac{(\lambda t)}{k!}e^{-a}
+    \end{equation}
+  \caption{Poisson Random Variable PMF}
+\end{equ} 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{poisson}
+    \caption{Poisson Distribution}
+    \label{fig:poisson}
+\end{figure}
+
+\subsubsection{Uniform Random Variable}
+
+When all events are equally likely, the probability of each can be found easily from the uniform random variable PMF.
+
+\begin{equ}[!ht]
+    \begin{equation}
+        f_K[k] = \frac{1}{n - m + 1}
+    \end{equation}
+  \caption{Uniform Distribution}
+\end{equ} 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{uniform}
+    \caption{Uniform Distribution}
+    \label{fig:uniform}
+\end{figure}
+
+\subsection{Continuous RVs and Their Distributions}
+
+For values which can take on a continuum of values, such as voltage, velocity, and mass, new tools are used to analyze their probability. The probability of these events is determined using the \textit{Cumulative Distribution Function} or \textbf{CDF}, which is written as $F_X(x) = Pr[X \leq x]$. \\
+
+By this notation we can see that by following the graph from left to right, the probability of the event occuring to the \textbf{left} of value $x$ will be found by the amplitude of the CDF at that value. Therefore, as $x \rightarrow \infty$, $F_x \rightarrow 1$. \\
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{cdf}
+    \caption{Continuous Density Function}
+    \label{fig:cdf}
+\end{figure}
+
+When finding the probability of a value occurring between points $a$ and $b$, their CDF values can be used. \\
+
+
+\begin{equ}[!ht]
+    \begin{equation}
+        Pr[a < X \leq b] = F_X(b) - F_x(a)
+    \end{equation}
+  \caption{CDF Probability Within a Range (b $>$ a)}
+\end{equ} 
+
+The \textit{Probability Density Function} or \textbf{PDF} is a derivative of the CDF that can also be used to find this probability:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{pdf1}
+    \caption{Probability Density Function}
+    \label{fig:pdf}
+\end{figure}
+
+\begin{equ}[!ht]
+    \begin{equation}
+        Pr[a < X \leq b] = \int_{b}^{a}f_X(x)dx 
+    \end{equation}
+  \caption{CDF Probability Within a Range (b $>$ a)}
+\end{equ} 
+
+This can be seen to be similar to the Probability Mass Function, as it will integrate over its full range to 1 -  $\int_{\infty}^{\infty}f_X(x)dx = 1$ \\
+
+To use the PDF to find the probability of a number $a + \Delta x$, we can multiply the PDF value at this point by the increment value to find the probability.
+
+\begin{equ}[!ht]
+    \begin{equation}
+        Pr[a < X \leq a + \Delta x] = f_X(a) \cdot \Delta x
+    \end{equation}
+  \caption{PDF Probability Within a Range ($a$ $<$ $a + \Delta x$)}
+\end{equ} 
+
+Integrating over a range ($a, b$) will also produce $Pr[a < x \leq b]$ from the PDF.
+
+\subsection{Common Continuous RVs}
+
+\subsubsection{Exponential Random Value}
+
+An extension of the Geometric Random Variable to the continuous realm, this represents a continuous graph of wait times where again $\lambda$ represents the rate of arrival for an event as in Poisson RVs.\\
+
+Its PDF follows $f_X(x) = \lambda e^{-\lambda x}$
+
+\subsubsection{Gaussian RV}
+
+The Gaussian or "normal" random variable arises naturally in numerous cases. It can be defined by its mean, $\mu$, which will be the center of its bell shape, and its standard deviation $\sigma$, which denotes the value in each direction it will pass before reaching $60.7\%$ of its peak value. \\
+
+\begin{equ}[!ht]
+    \begin{equation}
+        f_X(x) = \frac{1}{\sqrt{2\pi \sigma ^2}} e^{-(x-\mu)^2/2\sigma ^2}
+    \end{equation}
+  \caption{The Gaussian PDF}
+\end{equ} 
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{gauss}
+    \caption{Gaussian Random Variable}
+    \label{fig:gauss}
+\end{figure}
+
+The square of the standard deviation, $\sigma ^2$ is known as the variance, and is a measure of the total width of the bell between these points.
+
+The standard form of this random variable, centered at $0$ with a $\sigma ^2$ $=1$ can be used to express $Pr[X \leq x]$:
+
+\begin{equ}[!ht]
+    \begin{equation}
+        \Phi(x) = \frac{1}{\sqrt{2\pi}} e^{-x^2/2}
+    \end{equation}
+  \caption{The Standard Gaussian Function}
+\end{equ} 
+
+\begin{center}
+    $F_X(x) = Pr[X \leq x] = \Phi (\frac{x - \mu}{\sigma})$
+\end{center}
+
+And as with any other CDF, $Pr[a < x \leq b] = F_X(b) - F_x(a)$
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{q1}
+    \caption{Probability Using Q ($x$ $>$ $\mu$)}
+    \label{fig:q1}
+\end{figure}
+
+\subsubsection{Gaussian Q Values}
+
+In cases where the probablity of values at either tail of a Gaussian is required, such as $Pr[a < x \leq \infty]$, it is common to use $Q$ functions.
+
+\begin{equ}[!ht]
+    \begin{equation}
+        Q(x) = 1 - \Phi(x)
+    \end{equation}
+  \caption{The Gaussian Q Function}
+\end{equ} 
+
+When a value $x$ is sought which is less than $\mu$, the argument of the $Q$ function will be negative, and define the left tail of the CDF. 
+
+\begin{equ}[!ht]
+    \begin{equation}
+        Pr[X > x] = Q(\frac{x - \mu}{\sigma})
+    \end{equation}
+  \caption{The Gaussian Q Function}
+\end{equ}
+
+\begin{equ}[!ht]
+    \begin{equation}
+        Pr[X > x] = Q(\frac{- x + \mu}{\sigma})
+    \end{equation}
+  \caption{The Gaussian Q Function with Negative Argument}
+\end{equ} 
+
+\pagebreak
+
+\subsection{Expectation}
+
+Expecation can be considered the average of the expected values in a sample space, where the values are weighted by their probability and summed.
+
+\begin{equ}[!ht]
+    \begin{equation}
+        E\{X\} = \sum kf_K[k]
+    \end{equation}
+  \caption{Expectation of a Discrete RV}
+\end{equ} 
+
+For continuous random variables, when the PDF exists, the expectation can be calculated whenever the variable converges absolutely. \pagebreak
+
+\begin{equ}[!ht]
+    \begin{equation}
+        E\{X\} = \int_{-\infty}^{\infty}xf_X(x)dx 
+    \end{equation}
+  \caption{Expectation of a Continous RV}
+\end{equ} 
+
+\begin{center}
+    $E\{c\} = c$ \\
+    
+    $E\{X + c\} = E\{X\} + c$ \\
+    
+    $E\{cX\} = cE\{X\}$ \\
+    
+    $E\{E\{X\}\} = E\{X\}$
+\end{center}
+
+\subsubsection{Moments}
+
+The moment is the produced when the $X$ value of the expectation is raised to the $n$ power. If $g(X) = X^n$ for $n$ = 1, 2, 3 \\
+
+\begin{center}
+    $E\{X^n\} = \int_{-\infty}^{\infty}x^nf_X(x)dx$ (continous)\\ 
+
+    $E\{X^n\} = \sum k^n f_K[k] $ (discrete)
+\end{center}
+
+The first moment is the \textit{mean}, and each further $n$ value is called the $n$th moment of the distribution.
+
+\subsubsection{Central Moments}
+
+The \textit{Central Moment} is a mean of a random variable not centered at 0. Of particular importance is the \textbf{variance}, the square root of which will grant the width of the distribution.
+
+\begin{equ}[!ht]
+    \begin{equation}
+        \sigma ^{2}_x = Var[X] = E\{X^2\} - m_X^2\
+    \end{equation}
+  \caption{Variance}
+\end{equ} 
+
+\begin{center}
+    Var$[c] = 0$ \\
+    
+    Var$[X + c] = $ Var$[X]$ \\
+    
+    Var$[cX] = $ $c^2$Var$[X]$
+\end{center}
+
+
+\pagebreak
 
 \end{document}
