@@ -60,7 +60,6 @@ General purpose relationship. Pointers (C++) and ref variables (Java)
 • An association is a general purpose relationship. Whenever two classes need to communicate with
 each other. They need some sort of association. Typically uses a reference variable or a pointer. In a
 UML diagram this is represented with a line. These relationships should be named
-Software Design – MT2 Study Guide // Winter 2018 5
 • When you can, add multiplicity to the UML diagram. One to One, One to many, Many to one etc. These
 are shown with…
 • * means multiplicity
@@ -71,7 +70,6 @@ Navigability is denoted with an arrow. No arrow means navigable in both directio
 • Aggregation is a special type of association. If there's no association then there is no aggregation. It
 is used when a class is entirely purposed, or composed of, another class.
 • Denoted with a diamond at the “whole” end
-Software Design – MT2 Study Guide // Winter 2018 6
 \subsubsection{Composition (Whole-Part relationship with same lifetime)}
 • Composition builds off aggregation, although its a little more hardcore. In Composition, when the
 “parts” are deleted, the “whole” is deleted as well.
@@ -184,7 +182,6 @@ underlying representation
 • Allows clients to treat individual objects and compositions of objects uniformly.
 • I.e, you can call methods on classes, or collections of classes.
 \subsection{Adapter}
-Software Design – MT2 Study Guide // Winter 2018 16
 • Converts interface of a class into another form.
 • Ex: Switch -> Switchable Interface(on,off) -> light(on,off)
 • But, what if light is 3rd party and only has toggle method?
@@ -279,7 +276,6 @@ o ** Exempted: private methods, constructors
 • Better to have a thread wait until notified about change in condition
 • To wait, the object sends a wait message
 • While waiting, the thread gives up the lock (ownership)
-Software Design – MT2 Study Guide // Winter 2018 20
 • To allow other threads to stop waiting, a thread sends a notifyAll message to the object
 \subsection{Mailbox Example}
 • In this system, producers send a message to the mailbox. The mailbox then stores the message and
@@ -290,7 +286,6 @@ receives a message when it is at memory capacity the message gets dropped and lo
 sending. If it is at capacity it waits. By waiting two dope things happen: 1. Messages wont be dropped
 and lost 2. The thread doesn't have to poll the mailbox taking up CPU and hogging the thread lock. It
 can release the lock, sit back and relaxing waiting for someone to tell it to wake up. 
-Software Design – MT2 Study Guide // Winter 2018 21
 When a recipient removes a message from the mailbox it makes room for new ones so it notifies all that
 there is room now. By calling notifyall any threads that were stuck in a wait can now wake up and use the
 new room. If another thread beat it to the new open space, it will go back to waiting.
@@ -333,14 +328,12 @@ The test-driven development cycle is:
 • Makes developers think a bit more about their design
 • Acts as an executable documentation for your code
 • Forces developer to decouple components 
-Software Design – MT2 Study Guide // Winter 2018 23
 \subsection{Decoupling}
 • Before you can write a unit test (a test apply to a single software unit, aka. A class) you will need to
 decouple it from other objects and classes
 • Create fake interfaces in place of other classes (ex. <<interface>> Employee and <<interface>>
 CheckWriter, etc.)
 • Provide mock implementations (in example, Mock Checkwriter, Mock Employee)
-Software Design – MT2 Study Guide // Winter 2018 24
 \subsection{JUnit}
 • What is JUnit?
 o Junit is a unit-testing framework for Java
@@ -361,7 +354,6 @@ Assertion Methods
 • Choose representative test cases from equivalent input classes
 • Avoid complex logic in test methods
 • Use helpers, like @Before
-Software Design – MT2 Study Guide // Winter 2018 25
 \section{MVC and Graphics}
 \subsection{Model View Controller}
 • Model: Holds state information
@@ -379,7 +371,6 @@ routed through the GUI component the user directs them at.)
 2. The controller may need to know the model’s state
 3. Some events affect only the view and so should not go through the model. (E.g. Scrolling, cursor
 position, selection.)
-Software Design – MT2 Study Guide // Winter 2018 26
 \subsection{Flow of Information (More Realistic)}
 • Strategy (View using the Controller)
 o The view uses the controller as a strategy to help it deal with input events
@@ -400,7 +391,6 @@ Observer Observes Model Observes Model Recipient
 Composite Can be used Can be used Can be used
 Facade Can be used
 State Pattern Can be used Can be used
-Software Design – MT2 Study Guide // Winter 2018 27
 \subsection{Advantages of these MVC Design Patterns}
 • Clean separation of View from Model
 • Clean separation of View from Control
