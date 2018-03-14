@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.10)  12 MAR 2018 01:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.10)  14 MAR 2018 02:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -44,21 +44,19 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 )
 \c@ContinuedFloat=\count87
 )
-(/usr/local/texlive/2017basic/texmf-dist/tex/latex/caption/newfloat.sty
-Package: newfloat 2015/09/17 v1.1-109 Defining new floating environments (AR)
-)
-Package newfloat Info: New float `equ' with options `' on input line 4.
-\c@equ=\count88
-\newfloat@ftype=\count89
-Package newfloat Info: float type `equ'=8 on input line 4.
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017basic/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
@@ -69,8 +67,26 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count90
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen110
+\Gin@req@width=\dimen111
 )
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/caption/newfloat.sty
+Package: newfloat 2015/09/17 v1.1-109 Defining new floating environments (AR)
+)
+Package newfloat Info: New float `equ' with options `' on input line 6.
+\c@equ=\count89
+\newfloat@ftype=\count90
+Package newfloat Info: float type `equ'=8 on input line 6.
+
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -87,23 +103,24 @@ File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/paratype/PTSerif.sty
 Package: PTSerif 2011/02/10 Style file for PTSerif.
 )
-No file "ENG5420 Probability and Random Processes".aux.
+(./ENG5420 Probability and Random Processes.aux)
 \openout1 = `"ENG5420 Probability and Random Processes.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Try loading font information for OT1+PTSerif-TLF on input l
-ine 11.
+ine 13.
+
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/paratype/OT1PTSerif-TLF.fd
 File: OT1PTSerif-TLF.fd 2014/02/02 Font definitions for OT1/PTSerif-TLF.
 )
@@ -113,57 +130,103 @@ Package caption Info: End \AtBeginDocument code.
 (/usr/local/texlive/2017basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count91
-\scratchdimen=\dimen110
+\scratchdimen=\dimen112
 \scratchbox=\box26
 \nofMPsegments=\count92
 \nofMParguments=\count93
 \everyMPshowfont=\toks15
 \MPscratchCnt=\count94
-\MPscratchDim=\dimen111
+\MPscratchDim=\dimen113
 \MPnumerator=\count95
 \makeMPintoPDFobject=\count96
 \everyMPtoPDFconversion=\toks16
+) (/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+)) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Font Info:    Font shape `OT1/PTSerif-TLF/bx/n' in size <10.95> not avail
 able
 (Font)              Font shape `OT1/PTSerif-TLF/b/n' tried instead on input lin
-e 23.
+e 25.
 LaTeX Font Info:    Font shape `OT1/PTSerif-TLF/bx/n' in size <17.28> not avail
 able
 (Font)              Font shape `OT1/PTSerif-TLF/b/n' tried instead on input lin
-e 23.
+e 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 31.
+(Font)              <12> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 31.
+(Font)              <8> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 31.
+(Font)              <6> on input line 33.
  [1
 
 {/usr/local/texlive/2017basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/PTSerif-TLF/bx/n' in size <14.4> not availa
 ble
 (Font)              Font shape `OT1/PTSerif-TLF/b/n' tried instead on input lin
-e 41.
-
-No file "ENG5420 Probability and Random Processes".toc.
+e 43.
+ (./ENG5420 Probability and Random Processes.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 2.
+ [1])
 \tf@toc=\write3
 \openout3 = `"ENG5420 Probability and Random Processes.toc"'.
 
-[1]
+ [2]
 LaTeX Font Info:    Font shape `OT1/PTSerif-TLF/bx/n' in size <12> not availabl
 e
 (Font)              Font shape `OT1/PTSerif-TLF/b/n' tried instead on input lin
 e 49.
- [2]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 77.
-
+ [3]
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-[3]
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
@@ -176,7 +239,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 Missing character: There is no â in font PTSerif-Regular-tlf-ot1!
 Missing character: There is no € in font PTSerif-Regular-tlf-ot1!
 Missing character: There is no ™ in font PTSerif-Regular-tlf-ot1!
-[4] [5]
+[5] [6]
 Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
@@ -226,7 +289,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
-[6]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
@@ -259,7 +322,7 @@ LaTeX Font Warning: Font shape `OMS/PTSerif-TLF/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbullet' on input line 254.
 
-[7]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
@@ -309,7 +372,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--285
 
  []
 
-[8]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
@@ -344,7 +407,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 325--326
 
  []
 
-[9]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 336--337
 
  []
@@ -354,19 +417,130 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
-[10] (./ENG5420 Probability and Random Processes.aux)
+[11] <img/pmf.png, id=50, 422.57875pt x 239.89626pt>
+File: img/pmf.png Graphic file (type png)
+ <use img/pmf.png>
+Package pdftex.def Info: img/pmf.png used on input line 381.
+(pdftex.def)             Requested size: 360.0pt x 204.37766pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--392
+
+ []
+
+[12 <./img/pmf.png>] <img/geo1.png, id=57, 597.23125pt x 225.84375pt>
+File: img/geo1.png Graphic file (type png)
+
+<use img/geo1.png>
+Package pdftex.def Info: img/geo1.png used on input line 398.
+(pdftex.def)             Requested size: 360.0pt x 136.13448pt.
+ <img/poisson.png, id=58, 390.45876pt x 299.1175pt>
+File: img/poisson.png Graphic file (type png)
+
+<use img/poisson.png>
+Package pdftex.def Info: img/poisson.png used on input line 422.
+(pdftex.def)             Requested size: 360.0pt x 275.7939pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13 <./img/geo1.png>] <img/uniform.png, id=63, 386.44376pt x 305.14pt>
+File: img/uniform.png Graphic file (type png)
+
+<use img/uniform.png>
+Package pdftex.def Info: img/uniform.png used on input line 440.
+(pdftex.def)             Requested size: 360.0pt x 284.26147pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
+
+ []
+
+[14 <./img/poisson.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 449--450
+
+ []
+
+<img/cdf.png, id=68, 341.275pt x 183.68625pt>
+File: img/cdf.png Graphic file (type png)
+ <use img/cdf.png>
+Package pdftex.def Info: img/cdf.png used on input line 454.
+(pdftex.def)             Requested size: 360.0pt x 193.77592pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
+
+ []
+
+<img/pdf1.png, id=69, 350.30875pt x 173.64874pt>
+File: img/pdf1.png Graphic file (type png)
+ <use img/pdf1.png>
+Package pdftex.def Info: img/pdf1.png used on input line 473.
+(pdftex.def)             Requested size: 360.0pt x 178.4654pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
+
+ []
+
+[15 <./img/uniform.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
+
+ []
+
+[16 <./img/cdf.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
+
+ []
+
+<img/gauss.png, id=78, 647.41875pt x 289.08pt>
+File: img/gauss.png Graphic file (type png)
+ <use img/gauss.png>
+Package pdftex.def Info: img/gauss.png used on input line 520.
+(pdftex.def)             Requested size: 360.0pt x 160.74565pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17 <./img/pdf1.png>] <img/q1.png, id=84, 575.14874pt x 271.0125pt>
+File: img/q1.png Graphic file (type png)
+
+<use img/q1.png>
+Package pdftex.def Info: img/q1.png used on input line 544.
+(pdftex.def)             Requested size: 360.0pt x 169.63878pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18 <./img/gauss.png>] [19 <./img/q1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
+
+ []
+
+[20] (./ENG5420 Probability and Random Processes.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 2874 strings out of 494437
- 44352 string characters out of 6166645
- 113300 words of memory out of 5000000
- 6245 multiletter control sequences out of 15000+600000
+ 3444 strings out of 494437
+ 54199 string characters out of 6166645
+ 118930 words of memory out of 5000000
+ 6758 multiletter control sequences out of 15000+600000
  22490 words of font info for 36 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 36i,6n,39p,373b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,7n,39p,376b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017basic/texmf-dist/fonts/enc/dvips/paratype/ptserif_ot1
 .enc}</usr/local/texlive/2017basic/texmf-dist/fonts/type1/paratype/ptserif/PTF5
 5F.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/paratype/ptserif/PT
@@ -376,14 +550,15 @@ PTF75F.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts
 onts/cm/cmmi10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "ENG5420 Probability and Random Processes.pdf" (11 pages, 122
-886 bytes).
+ublic/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "ENG5420 Probability and Random Processes.pdf" (21 pages, 272
+274 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

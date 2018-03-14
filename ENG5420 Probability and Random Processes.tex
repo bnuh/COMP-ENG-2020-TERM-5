@@ -42,10 +42,8 @@
 
     \tableofcontents
 
-    \pagebreak
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+    \pagebreak
     \section{Descriptive Statistics}
 
     \subsection{Statistics}
@@ -481,8 +479,8 @@ The \textit{Probability Density Function} or \textbf{PDF} is a derivative of the
     \begin{equation}
         Pr[a < X \leq b] = \int_{b}^{a}f_X(x)dx 
     \end{equation}
-  \caption{CDF Probability Within a Range (b $>$ a)}
-\end{equ} 
+  \caption{CDF Probability Within a Range (b $>$ a) From Integration}
+\end{equ}  
 
 This can be seen to be similar to the Probability Mass Function, as it will integrate over its full range to 1 -  $\int_{\infty}^{\infty}f_X(x)dx = 1$ \\
 
@@ -563,7 +561,7 @@ When a value $x$ is sought which is less than $\mu$, the argument of the $Q$ fun
 
 \begin{equ}[!ht]
     \begin{equation}
-        Pr[X > x] = Q(\frac{x - \mu}{\sigma})
+        Pr[X < x] = Q(\frac{x - \mu}{\sigma})
     \end{equation}
   \caption{The Gaussian Q Function}
 \end{equ}
@@ -637,8 +635,5 @@ The \textit{Central Moment} is a mean of a random variable not centered at 0. Of
     
     Var$[cX] = $ $c^2$Var$[X]$
 \end{center}
-
-
-\pagebreak
 
 \end{document}
