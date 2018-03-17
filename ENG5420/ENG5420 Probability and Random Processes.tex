@@ -1,6 +1,7 @@
 \documentclass[11pt]{article}
     \usepackage{caption}
     \usepackage{graphicx}
+    \usepackage{mathtools}
     \graphicspath{ {img/} }
     \setlength{\parindent}{0pt}
     \DeclareCaptionType{equ}[][]
@@ -524,13 +525,15 @@ The Gaussian or "normal" random variable arises naturally in numerous cases. It 
     \label{fig:gauss}
 \end{figure}
 
-The square of the standard deviation, $\sigma ^2$ is known as the variance, and is a measure of the total width of the bell between these points.
+The square of the standard deviation, $\sigma ^2$ is known as the variance, and is a measure of the total width of the bell between these points.\\
 
-The standard form of this random variable, centered at $0$ with a $\sigma ^2$ $=1$ can be used to express $Pr[X \leq x]$:
+
+
+The standard form of the PDF, centered at $0$ with a $\sigma ^2$ $=1$ can be used to express $Pr[X \leq x]$:
 
 \begin{equ}[!ht]
     \begin{equation}
-        \Phi(x) = \frac{1}{\sqrt{2\pi}} e^{-x^2/2}
+        \Phi(x) = \frac{1}{\sqrt{2\pi}} \int_{\infty}^{x}e^{-x^2/2}
     \end{equation}
   \caption{The Standard Gaussian Function}
 \end{equ} 
@@ -539,7 +542,8 @@ The standard form of this random variable, centered at $0$ with a $\sigma ^2$ $=
     $F_X(x) = Pr[X \leq x] = \Phi (\frac{x - \mu}{\sigma})$
 \end{center}
 
-And as with any other CDF, $Pr[a < x \leq b] = F_X(b) - F_x(a)$
+And as with any other CDF, $Pr[a < x \leq b] = F_X(b) - F_x(a)$ \\
+
 
 \begin{figure}[h]
     \centering
@@ -547,6 +551,8 @@ And as with any other CDF, $Pr[a < x \leq b] = F_X(b) - F_x(a)$
     \caption{Probability Using Q ($x$ $>$ $\mu$)}
     \label{fig:q1}
 \end{figure}
+
+These $\Phi$ values, which can be used as a CDF, as with other standard Gaussian values, can be found by table. 
 
 \subsubsection{Gaussian Q Values}
 
@@ -574,6 +580,10 @@ When a value $x$ is sought which is less than $\mu$, the argument of the $Q$ fun
     \end{equation}
   \caption{The Gaussian Q Function with Negative Argument}
 \end{equ} 
+
+\begin{center}
+    $Pr[a \leq x \leq b] = Q(\frac{b-\mu}{\sigma}) - Q(\frac{a-\mu}{\sigma})$
+\end{center}
 
 \pagebreak
 
@@ -611,11 +621,9 @@ For continuous random variables, when the PDF exists, the expectation can be cal
 
 The moment is the produced when the $X$ value of the expectation is raised to the $n$ power. If $g(X) = X^n$ for $n$ = 1, 2, 3 \\
 
-\begin{center}
-    $E\{X^n\} = \int_{-\infty}^{\infty}x^nf_X(x)dx$ (continous)\\ 
+        $E\{X^n\} = \int_{-\infty}^{\infty}x^nf_X(x)dx$  (continous) 
+        $E\{X^n\} = \sum k^n f_K[k] $  (discrete)
 
-    $E\{X^n\} = \sum k^n f_K[k] $ (discrete)
-\end{center}
 
 The first moment is the \textit{mean}, and each further $n$ value is called the $n$th moment of the distribution.
 
