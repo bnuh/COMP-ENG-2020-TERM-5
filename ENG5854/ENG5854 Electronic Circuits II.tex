@@ -50,13 +50,15 @@
     An \textit{Operation Amplifier} is a device which, when powered by $+V$ and $-V$ DC power sources, will amplify an input signal with infinite gain. The input terminals are known as the \textit{non-inverting} ($+$) and \textit{inverting} ($-$) terminals.
 
     Where no input current enters $+$ and $-$, and the \textit{input impedance is infinite.}
-
+\begin{center}
     \begin{figure}[h]
         \centering
-        \includegraphics[width=\textwidth]{op}
+        \includegraphics[width= 200 px]{op}
         \caption{Ideal Op Amp}
         \label{fig:op amp}
     \end{figure}
+\end{center}
+    
 
     $A$ is referred to as the \textbf{Open Loop Gain}, where the output and inputs have not been connected. The \textbf{Closed Loop Gain} will be denoted as $G$. \\ 
 
@@ -195,19 +197,64 @@
       \caption{Output of the Instrumentation Bridge Amplifier}
     \end{equ}
 
-    \begin{figure}[h]
-        \centering
-        \includegraphics[width=\textwidth]{instr}
-        \caption{Instrumentation Bridge Amplifier}
-        \label{fig:instrumentation bridge amplifier}
-    \end{figure}
+    \includegraphics[width=\textwidth]{instr}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \section{Filters and Tuned Amplifiers}
+    A filter is a linear two-port network with a transfer function $T(s) = V_o(s)/V_i(s)$. For physical frequencies, the filter transmission is expressed as $T(j\omega) = |T(j\omega)|e^{j\phi(\omega)}$. The magnitude of transmission can be expressed in decibels using either the gain function $G(\omega) = 20\text{log}|T|$ or the attenuation function $A(\omega) = −20 \text{log} |T|$.    
     \subsection{Filter Transmission}
+
+    The transmission characteristics of a filter are specified in terms of the edges of the passband(s) $\omega_p$ and the stopband(s) $\omega_s$. The maximum allowed variation in passband transmission, $A_{max}$ (dB); and the minimum attenuation required in the stopband, $A_{min}$ (dB). In some applications, the phase characteristics are also specified. \\
+    
+    \includegraphics[width=\textwidth]{transmission}
+
+    \begin{equ}[!ht]
+        \begin{equation}
+            T(s) = \frac{a_1s + a_0}{s + \omega_0}
+        \end{equation}
+      \caption{General First-Order Transfer Function}
+    \end{equ}
+
+    The filter transfer function can be expressed as the ratio of two polynomials in $s$. The degree of the denominator polynomial, $N$, is the filter order. The $N$ roots of the denominator polynomial are the poles (natural modes).
+
+    \subsection{Filter Types}
+    \textbf{High Pass} allows high frequencies to pass through (the \textit{passband}) and attenuates frequences below (the \textit{stopband}). \\
+
+    \includegraphics[width=200pt]{highpass} \includegraphics[width=200pt]{highpass2}
+    \\
+    
+    \textbf{Low Pass} allows low frequencies to pass through. \\
+
+    \includegraphics[width=200pt]{lowpass} \includegraphics[width=200pt]{lowpass2} 
+    
+    \pagebreak
+     
+    
+    \textbf{Band Pass} will pass all bands, but invert phase. \\
+    \includegraphics[width=200pt]{allpass} \includegraphics[width=200pt]{bandpass2} 
+    \\
+    
+    \textbf{Band Stop} will stop all bands within the specified range. \\
+    
+    
+    In each case of attenuation, the slope will be -20 dB per decade.
     \subsection{Filter Transmission (2nd Order Filters)}
+
+    \begin{equ}[!ht]
+        \begin{equation}
+            T(s) = \frac{a_2s^2 + a_1s + a_0}{s^2 + (\omega_0/Q)s + \omega_{0}^2}
+        \end{equation}
+      \caption{General Second-Order Transfer Function}
+    \end{equ}
+
     \subsection{Second Order LCR Resonator}
+
+    \begin{center}
+            $\omega_0 = 1/\sqrt{LC}$ \\
+            
+            $Q = \omega_0 CR$
+    \end{center}
     \subsection{Second Order Active Filters}
     \subsection{Second Order Active Filters Based on Two Integrator Loop Topology}
     \subsection{Single Amplifier Biquadratic Active Filters}
@@ -217,10 +264,78 @@
 
     \section{Signal Generators and Waveform-Shaping Circuits}
     \subsection{Basic Principles of Sinusoidal Oscillators}
+    
     \subsection{Bistable Multivibrators}
-    \subsection{Op Amp RC Oscillator Circuits}
-    \subsection{Generation Waveforms Using Astable Multivibrators}
-    \subsection{Generation of a Standardized Pulse: The Monostable Multivibrator}
+    A bistable multivibrator is an op amp circuit that switches between two stable states indefinitely when it receives a trigger signal. \\
+    
+    The op amp will saturate at the value $L^+$ or $L^-$, until a value less than, or greater than $L^+\frac{R_1}{R_1+R_2}$ is presented at the inverting input.
+
+    From the transfer characteristics of the non-inverting feedback loop, we can derive this relationship:
+
+    \begin{center}
+        $v_+ = v_o \frac{R_1}{R_1+R_2} = L^+\beta$ \\
+        
+        $L^+\beta - v_I = 0 \rightarrow \textit{no change}$     \\
+        
+        $L^+\beta - (L^+\beta + 1) = -1 \rightarrow L^-$ \\
+        
+    \end{center}
+
+    When the $v_I$ value exceeds the other input, it will trigger a positive feedback loop which fixes the op amp at its positive or negative saturation. \\
+    
+    This pair of values in the negative and positive direction are the $V_{TH}$ and $V_{TL}$, which can be found to be $L^+\beta$ and $L^-\beta$.
+    
+    \begin{center}
+        \includegraphics[width = 300 px]{bistable}        
+    \end{center}
+    \includegraphics[width = 200 px]{bistable-neg} \includegraphics[width = 200 px]{bistable-neg-char} \\
+    \includegraphics[width = 200 px]{bistable-pos} \includegraphics[width = 200 px]{bistable-pos-char} \\
+    
+    For the non-inverting bistable circuit, superposition must be used to find the value of $v^+$ due to the input $v_I$ and the output $v_o$ being fed back into the op amp. Therefore,
+
+    \begin{center}
+        $v^+ = v_I\frac{R_2}{R_1+R_2} + v_o\frac{R_1}{R_1+R_2}$
+    \end{center}
+
+    To find the $V_{TH}$ and $V_{TL}$ for this circuit, we must find values that create make $v^+$ less than zero. Assuming the state that this will happen, set $v_o$ to $L^+$, $v^+$ to $0$, and $v_I$ to $V_{TL}$. Rearranging and solving for $V_{TL}$,
+    
+    \begin{center}
+        $V_{TL} = -L_+\frac{R_1}{R_2}$
+    \end{center}
+
+    This technique can be used to find the $V_{TH}$ as well, by rewriting for $L_+$.
+
+    \begin{center}
+        $V_{TH} = -L_-\frac{R_1}{R_2}$
+    \end{center}
+
+    For each case, adding a reference DC voltage $V_R$ to an input will move the characteristic horizontally by a value of $V_R$, as the $v_I$ input must now match $L^+\beta + V_R$, for example.
+    \subsection{Astable Multivibrators}
+    By connecting a bistable multivibrator with an RC circuit in a feedback loop, a square wave can be generated where the circuit will switch states periodically. The capacitor will charge until it reaches $\beta L^+$, then discharge until $\beta L^-$, upon which time it will begin charging again.
+
+    \begin{center}
+        \includegraphics[width = 250 px]{astable}        
+    \end{center}
+
+    The time constant for this circuit is $\tau = CR$, which will define the period.
+
+    \begin{center}
+        $T = 2\tau \text{ln}\frac{1+\beta}{1-\beta}$
+    \end{center}
+
+    \includegraphics[width = 350 px]{triangle}  
+    
+    \begin{center}
+        $T_1 = CR\frac{V_{TH}-V_{TL}}{L^+}$
+        $T_2 = CR\frac{V_{TH}-V_{TL}}{L^-}$
+    \end{center}
+
+    \subsection{Monostable Multivibrator}
+
+    \begin{center}
+        \includegraphics[width = 250 px]{mono}        
+    \end{center}
+
     \subsection{Precision Rectifiers}
 
     \end{document}

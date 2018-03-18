@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 MAR 2018 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 MAR 2018 17:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -48,21 +48,19 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 )
 \c@ContinuedFloat=\count87
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/newfloat.sty
-Package: newfloat 2015/09/17 v1.1-109 Defining new floating environments (AR)
-)
-Package newfloat Info: New float `equ' with options `' on input line 4.
-\c@equ=\count88
-\newfloat@ftype=\count89
-Package newfloat Info: float type `equ'=8 on input line 4.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
@@ -73,8 +71,117 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count90
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen110
+\Gin@req@width=\dimen111
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count89
+\calc@Bcount=\count90
+\calc@Adimen=\dimen112
+\calc@Bdimen=\dimen113
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count91
+\calc@Cskip=\skip45
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen114
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen115
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen116
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks16
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks17
+\eqnshift@=\dimen117
+\alignsep@=\dimen118
+\tagshift@=\dimen119
+\tagwidth@=\dimen120
+\totwidth@=\dimen121
+\lineht@=\dimen122
+\@envbody=\toks18
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count104
+\l_MT_multwidth_dim=\dimen123
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen124
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen125
+\l_MT_above_intertext_sep=\dimen126
+\l_MT_below_intertext_sep=\dimen127
+\l_MT_above_shortintertext_sep=\dimen128
+\l_MT_below_shortintertext_sep=\dimen129
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/newfloat.sty
+Package: newfloat 2015/09/17 v1.1-109 Defining new floating environments (AR)
+)
+Package newfloat Info: New float `equ' with options `' on input line 7.
+\c@equ=\count105
+\newfloat@ftype=\count106
+Package newfloat Info: float type `equ'=8 on input line 7.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -94,20 +201,20 @@ Package: PTSerif 2011/02/10 Style file for PTSerif.
 (./ENG5854 Electronic Circuits II.aux)
 \openout1 = `"ENG5854 Electronic Circuits II.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Try loading font information for OT1+PTSerif-TLF on input l
-ine 11.
+ine 14.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/paratype/OT1PTSerif-TLF.fd
 File: OT1PTSerif-TLF.fd 2014/02/02 Font definitions for OT1/PTSerif-TLF.
@@ -117,69 +224,396 @@ Package caption Info: End \AtBeginDocument code.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
-\scratchdimen=\dimen110
-\scratchbox=\box26
-\nofMPsegments=\count92
-\nofMParguments=\count93
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count94
-\MPscratchDim=\dimen111
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
-\everyMPtoPDFconversion=\toks16
+\scratchcounter=\count107
+\scratchdimen=\dimen130
+\scratchbox=\box28
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen131
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks21
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Font Info:    Font shape `OT1/PTSerif-TLF/bx/n' in size <10.95> not avail
 able
 (Font)              Font shape `OT1/PTSerif-TLF/b/n' tried instead on input lin
-e 23.
+e 26.
 LaTeX Font Info:    Font shape `OT1/PTSerif-TLF/bx/n' in size <17.28> not avail
 able
 (Font)              Font shape `OT1/PTSerif-TLF/b/n' tried instead on input lin
-e 23.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 31.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 31.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 31.
- [1
+e 26.
+
+[1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/PTSerif-TLF/bx/n' in size <14.4> not availa
 ble
 (Font)              Font shape `OT1/PTSerif-TLF/b/n' tried instead on input lin
-e 40.
+e 43.
 
 (./ENG5854 Electronic Circuits II.toc)
 \tf@toc=\write3
 \openout3 = `"ENG5854 Electronic Circuits II.toc"'.
 
  [1]
-Overfull \hbox (3.91637pt too wide) in paragraph at lines 46--46
+<img/op.png, id=13, 481.8pt x 322.20375pt>
+File: img/op.png Graphic file (type png)
+ <use img/op.png>
+Package pdftex.def Info: img/op.png used on input line 56.
+(pdftex.def)             Requested size: 200.75073pt x 134.24794pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/PTSerif-TLF/bx/n' in size <12> not availabl
+e
+(Font)              Font shape `OT1/PTSerif-TLF/b/n' tried instead on input lin
+e 72.
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+<img/invert.png, id=15, 1042.89626pt x 605.26125pt>
+File: img/invert.png Graphic file (type png)
+ <use img/invert.png>
+Package pdftex.def Info: img/invert.png used on input line 80.
+(pdftex.def)             Requested size: 360.0pt x 208.92618pt.
+
+[2 <./img/op.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+[3 <./img/invert.png>] <img/summer-2.png, id=30, 1075.01625pt x 404.51125pt>
+File: img/summer-2.png Graphic file (type png)
+
+<use img/summer-2.png>
+Package pdftex.def Info: img/summer-2.png used on input line 131.
+(pdftex.def)             Requested size: 360.0pt x 135.4581pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+[4 <./img/summer-2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+<img/buff.png, id=35, 968.61874pt x 604.2575pt>
+File: img/buff.png Graphic file (type png)
+ <use img/buff.png>
+Package pdftex.def Info: img/buff.png used on input line 159.
+(pdftex.def)             Requested size: 360.0pt x 224.57678pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+<img/diff.png, id=39, 924.45375pt x 617.30624pt>
+File: img/diff.png Graphic file (type png)
+ <use img/diff.png>
+Package pdftex.def Info: img/diff.png used on input line 184.
+(pdftex.def)             Requested size: 360.0pt x 240.39053pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/instr.png, id=40, 1093.08376pt x 537.00626pt>
+File: img/instr.png Graphic file (type png)
+ <use img/instr.png>
+Package pdftex.def Info: img/instr.png used on input line 200.
+(pdftex.def)             Requested size: 360.0pt x 176.86026pt.
+ [6 <./img/buff.png>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+
+Overfull \hbox (14.76942pt too wide) in paragraph at lines 205--206
+\OT1/PTSerif-TLF/m/n/10.95 A fil-ter is a lin-ear two-port net-work with a tran
+s-fer func-tion $\OML/cmm/m/it/10.95 T\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 s
+\OT1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 V[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it
+/10.95 s\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 =V[]\OT1/cmr/m/n/10.95 (\OML/cm
+m/m/it/10.95 s\OT1/cmr/m/n/10.95 )$\OT1/PTSerif-TLF/m/n/10.95 .
+ []
+
+[7 <./img/diff.png> <./img/instr.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+<img/transmission.png, id=51, 661.47125pt x 467.7475pt>
+File: img/transmission.png Graphic file (type png)
+
+<use img/transmission.png>
+Package pdftex.def Info: img/transmission.png used on input line 210.
+(pdftex.def)             Requested size: 360.0pt x 254.56403pt.
+ [8 <./img/transmission.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+<img/highpass.png, id=56, 598.235pt x 468.75125pt>
+File: img/highpass.png Graphic file (type png)
+ <use img/highpass.png>
+Package pdftex.def Info: img/highpass.png used on input line 224.
+(pdftex.def)             Requested size: 200.0pt x 156.71255pt.
+
+<img/highpass2.png, id=57, 349.305pt x 243.91125pt>
+File: img/highpass2.png Graphic file (type png)
+ <use img/highpass2.png>
+Package pdftex.def Info: img/highpass2.png used on input line 224.
+(pdftex.def)             Requested size: 200.0pt x 139.65611pt.
+
+Overfull \hbox (41.7739pt too wide) in paragraph at lines 224--226
+[][] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+<img/lowpass.png, id=58, 570.13pt x 488.82625pt>
+File: img/lowpass.png Graphic file (type png)
+ <use img/lowpass.png>
+Package pdftex.def Info: img/lowpass.png used on input line 229.
+(pdftex.def)             Requested size: 200.0pt x 171.4796pt.
+
+<img/lowpass2.png, id=59, 343.2825pt x 237.88875pt>
+File: img/lowpass2.png Graphic file (type png)
+ <use img/lowpass2.png>
+Package pdftex.def Info: img/lowpass2.png used on input line 229.
+(pdftex.def)             Requested size: 200.0pt x 138.59627pt.
+
+Overfull \hbox (41.7739pt too wide) in paragraph at lines 229--230
+[][] [] 
+ []
+
+[9 <./img/highpass.png> <./img/highpass2.png> <./img/lowpass.png> <./img/lowpas
+s2.png>] <img/allpass.png, id=67, 625.33624pt x 538.01pt>
+File: img/allpass.png Graphic file (type png)
+
+<use img/allpass.png>
+Package pdftex.def Info: img/allpass.png used on input line 235.
+(pdftex.def)             Requested size: 200.0pt x 172.06819pt.
+ <img/bandpass2.png, id=68, 424.58624pt x 239.89626pt>
+File: img/bandpass2.png Graphic file (type png)
+
+<use img/bandpass2.png>
+Package pdftex.def Info: img/bandpass2.png used on input line 235.
+(pdftex.def)             Requested size: 200.0pt x 113.00381pt.
+
+Overfull \hbox (41.7739pt too wide) in paragraph at lines 234--237
+[] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--237
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+
+Overfull \hbox (3.91637pt too wide) in paragraph at lines 265--265
 []\OT1/PTSerif-TLF/b/n/14.4 Signal Gen-er-a-tors and Waveform-Shaping Cir-cuits
  
  []
 
-[2] (./ENG5854 Electronic Circuits II.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+
+ []
+
+[10 <./img/allpass.png> <./img/bandpass2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
+
+ []
+
+<img/bistable.png, id=74, 774.895pt x 480.79625pt>
+File: img/bistable.png Graphic file (type png)
+ <use img/bistable.png>
+Package pdftex.def Info: img/bistable.png used on input line 289.
+(pdftex.def)             Requested size: 301.1261pt x 186.84216pt.
+
+[11] <img/bistable-neg.png, id=79, 874.26625pt x 647.41875pt>
+File: img/bistable-neg.png Graphic file (type png)
+
+<use img/bistable-neg.png>
+Package pdftex.def Info: img/bistable-neg.png used on input line 291.
+(pdftex.def)             Requested size: 200.75073pt x 148.6562pt.
+
+<img/bistable-neg-char.png, id=80, 742.775pt x 728.7225pt>
+File: img/bistable-neg-char.png Graphic file (type png)
+
+<use img/bistable-neg-char.png>
+Package pdftex.def Info: img/bistable-neg-char.png used on input line 291.
+(pdftex.def)             Requested size: 200.75073pt x 196.94673pt.
+
+<img/bistable-pos.png, id=81, 868.24374pt x 472.76625pt>
+File: img/bistable-pos.png Graphic file (type png)
+
+<use img/bistable-pos.png>
+Package pdftex.def Info: img/bistable-pos.png used on input line 292.
+(pdftex.def)             Requested size: 200.75073pt x 109.31105pt.
+
+<img/bistable-pos-char.png, id=82, 891.33pt x 732.7375pt>
+File: img/bistable-pos-char.png Graphic file (type png)
+
+<use img/bistable-pos-char.png>
+Package pdftex.def Info: img/bistable-pos-char.png used on input line 292.
+(pdftex.def)             Requested size: 200.75073pt x 165.02654pt.
+
+Overfull \hbox (43.27536pt too wide) in paragraph at lines 291--293
+[] [] 
+ []
+
+
+Overfull \hbox (43.27536pt too wide) in paragraph at lines 291--293
+[] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--293
+
+ []
+
+[12 <./img/bistable.png> <./img/bistable-neg.png> <./img/bistable-neg-char.png>
+] <img/astable.png, id=90, 555.07375pt x 511.9125pt>
+File: img/astable.png Graphic file (type png)
+ <use img/astable.png>
+Package pdftex.def Info: img/astable.png used on input line 317.
+(pdftex.def)             Requested size: 250.93842pt x 231.42862pt.
+
+[13 <./img/bistable-pos.png> <./img/bistable-pos-char.png>]
+<img/triangle.png, id=96, 1130.2225pt x 595.22375pt>
+File: img/triangle.png Graphic file (type png)
+ <use img/triangle.png>
+Package pdftex.def Info: img/triangle.png used on input line 326.
+(pdftex.def)             Requested size: 351.31378pt x 185.01698pt.
+
+<img/mono.png, id=97, 516.93124pt x 514.92375pt>
+File: img/mono.png Graphic file (type png)
+ <use img/mono.png>
+Package pdftex.def Info: img/mono.png used on input line 336.
+(pdftex.def)             Requested size: 250.93842pt x 249.96556pt.
+ [14 <./img/astable.png> <./img/triangle.png>] [15 <./img/mono.png>]
+(./ENG5854 Electronic Circuits II.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2863 strings out of 492995
- 44081 string characters out of 6132704
- 112993 words of memory out of 5000000
- 6439 multiletter control sequences out of 15000+600000
- 18756 words of font info for 32 fonts, out of 8000000 for 9000
+ 4653 strings out of 492995
+ 71766 string characters out of 6132704
+ 143854 words of memory out of 5000000
+ 8135 multiletter control sequences out of 15000+600000
+ 29482 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,6n,38p,294b,140s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist
-/fonts/enc/dvips/paratype/ptserif_ot1.enc}</usr/local/texlive/2017/texmf-dist/f
-onts/type1/paratype/ptserif/PTF55F.pfb></usr/local/texlive/2017/texmf-dist/font
-s/type1/paratype/ptserif/PTF56F.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/paratype/ptserif/PTF75F.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "ENG5854 Electronic Circuits II.pdf" (3 pages, 33496 bytes).
+ 39i,6n,39p,503b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/paratype/ptserif_ot1.enc}
+</usr/local/texlive/2017/texmf-dist/fonts/type1/paratype/ptserif/PTF55F.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/paratype/ptserif/PTF56F.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/paratype/ptserif/PTF75F.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "ENG5854 Electronic Circuits II.pdf" (16 pages, 860219 bytes)
+.
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 148 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
