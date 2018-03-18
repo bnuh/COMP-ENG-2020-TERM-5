@@ -12,14 +12,16 @@
 \contentsline {subsection}{\numberline {2.1}Filter Transmission}{8}
 \contentsline {subsection}{\numberline {2.2}Filter Types}{9}
 \contentsline {subsection}{\numberline {2.3}Filter Transmission (2nd Order Filters)}{10}
-\contentsline {subsection}{\numberline {2.4}Second Order LCR Resonator}{10}
-\contentsline {subsection}{\numberline {2.5}Second Order Active Filters}{11}
-\contentsline {subsection}{\numberline {2.6}Second Order Active Filters Based on Two Integrator Loop Topology}{11}
-\contentsline {subsection}{\numberline {2.7}Single Amplifier Biquadratic Active Filters}{11}
-\contentsline {subsection}{\numberline {2.8}Sensitivity}{11}
-\contentsline {section}{\numberline {3}Signal Generators and Waveform-Shaping Circuits}{11}
-\contentsline {subsection}{\numberline {3.1}Basic Principles of Sinusoidal Oscillators}{11}
-\contentsline {subsection}{\numberline {3.2}Bistable Multivibrators}{11}
-\contentsline {subsection}{\numberline {3.3}Astable Multivibrators}{13}
-\contentsline {subsection}{\numberline {3.4}Monostable Multivibrator}{15}
-\contentsline {subsection}{\numberline {3.5}Precision Rectifiers}{15}
+\contentsline {subsection}{\numberline {2.4}Filter Types}{11}
+\contentsline {subsection}{\numberline {2.5}Second Order LCR Resonator}{13}
+\contentsline {subsubsection}{\numberline {2.5.1}Antoniou Inductance Circuit}{14}
+\contentsline {subsubsection}{\numberline {2.5.2}Filter Types}{16}
+\contentsline {subsection}{\numberline {2.6}Second Order Active Filters Based on Two Integrator Loop Topology}{17}
+\contentsline {subsection}{\numberline {2.7}Single Amplifier Biquadratic Active Filters}{17}
+\contentsline {subsection}{\numberline {2.8}Sensitivity}{17}
+\contentsline {section}{\numberline {3}Signal Generators and Waveform-Shaping Circuits}{17}
+\contentsline {subsection}{\numberline {3.1}Basic Principles of Sinusoidal Oscillators}{17}
+\contentsline {subsection}{\numberline {3.2}Bistable Multivibrators}{17}
+\contentsline {subsection}{\numberline {3.3}Astable Multivibrators}{19}
+\contentsline {subsection}{\numberline {3.4}Monostable Multivibrator}{21}
+\contentsline {subsection}{\numberline {3.5}Precision Rectifiers}{21}

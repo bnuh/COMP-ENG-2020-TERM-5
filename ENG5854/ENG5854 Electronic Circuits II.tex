@@ -237,8 +237,9 @@
     
     \textbf{Band Stop} will stop all bands within the specified range. \\
     
+    In each case of attenuation, the slope will be -20 dB per decade. \\
     
-    In each case of attenuation, the slope will be -20 dB per decade.
+    The \textit{All Pass Filter} is a special case which does not attenuate, but serves as a phase shifter, with a unity gain and phase shift at $\omega_0$.
     \subsection{Filter Transmission (2nd Order Filters)}
 
     \begin{equ}[!ht]
@@ -247,15 +248,104 @@
         \end{equation}
       \caption{General Second-Order Transfer Function}
     \end{equ}
+    \pagebreak
+
+    \subsection{Filter Types}
+    \textbf{High Pass} goes zero as the $s$ value goes to zero, and $a_2$ as $s$ goes to $\infty$. \\
+    
+    $T(s) = \frac{a_0}{s^2 + (\omega_0/Q)s + \omega_{0}^2}$
+
+    \includegraphics[width=\textwidth]{highpass3}
+    \\
+    
+    \textbf{Low Pass} allows low frequencies to pass through. \\
+
+   $T(s) = \frac{a_2s^2}{s^2 + (\omega_0/Q)s + \omega_{0}^2}$
+
+    \includegraphics[width=\textwidth]{lowpass3}    
+    
+    \textbf{Band Pass} will attenuate all but the $\omega_0$ frequency. \\
+
+    $T(s) = \frac{a_1s}{s^2 + (\omega_0/Q)s + \omega_{0}^2}$
+
+    \includegraphics[width=\textwidth]{bandpass3} 
+       
+    \textbf{Notch} will attenutate at the center frequency $\omega_0$. \\
+
+    $T(s) = a_2\frac{s^2+\omega_{0}^2}{s^2 + (\omega_0/Q)s + \omega_{0}^2}$
+
+    \includegraphics[width=\textwidth]{notch} 
+    \\
+
+    $Q = 1/\sqrt{2} = $The Butterworth Maximally Flat Response
+
+    $\text{BW} = \omega_2 - \omega_1 = \omega_0/Q$
 
     \subsection{Second Order LCR Resonator}
+
+    Resonators are used to realize second order filters.
+    
+    \begin{center}
+        \includegraphics[width=250 px]{resonator} 
+    \end{center}    
+
+    For a current applied to this circuit,
+
+    \begin{center}
+        $v_0 = I \cdot \frac{1}{Y}$ \\
+        
+        $\frac{1}{Y} = \frac{1}{\frac{1}{SL} + Cs + \frac{1}{R}}$ \\
+                
+        $\frac{s/C}{s^2+\frac{s}{CR}+\frac{1}{CL}}$
+    \end{center}
+
+    In this case, $\omega_{0}^2 = \frac{1}{CL}$ and $\frac{\omega_0}{Q} = \frac{1}{CR}$
 
     \begin{center}
             $\omega_0 = 1/\sqrt{LC}$ \\
             
             $Q = \omega_0 CR$
     \end{center}
-    \subsection{Second Order Active Filters}
+
+    Using this structure,
+
+    \begin{center}
+        $T(s) = \frac{v_0}{v_i} = \frac{Z_2}{Z_1+Z_2}$
+    \end{center}
+
+    \includegraphics[width=200 px]{res-general} \includegraphics[width=200 px]{res-lpf} \\
+    
+    \includegraphics[width=200 px]{res-hpf} \includegraphics[width=200 px]{res-notch}  \\
+    
+    By following the structure $T(s) = \frac{v_0}{v_i} = \frac{Z_2}{Z_1+Z_2}$, it can be seen that from these structures the transfer function for each second order filter can be derived by these circuits. It can also be seen that the order of capacitors are mirrored by the single order op amp filters.
+
+    \subsubsection{Antoniou Inductance Circuit}
+
+    Inductors in the resonator circuits can be replaced by a system of op amps, such as the \textit{Antoniou Inducance Simulation Circuit}. \\
+    
+    From the circuit below, an impedance $Z = sC_4R_1R_3R_5/R_2$, $L = C_4R_1R_3R_5/R_2$
+
+    \includegraphics[width=\textwidth]{antoniou}
+
+    The design of this circuit is usually based on selecting $R_1 = R_2 = R_3 = R_5 = R$ and $C_4 = C$, which leads to $L = CR^2$. When used in a resonator,
+
+    \includegraphics[width=\textwidth]{antoniou-res}
+
+    This circuit would have a pole frequency $\omega_0 = 1/LC_6 = 1/C_4C_6R_1R_3R_5/R_2$ \\
+    
+    The gain would be derived from $+K$ op amp, $Q = \omega_0C_6R_6$, $\omega_0 = 1/CR$.
+
+    \subsubsection{Filter Types}
+    \begin{center}
+    \includegraphics[width=300 px]{lp-antoniou} \\ 
+
+    \includegraphics[width=300 px]{hp-antoniou} \\ 
+    
+    \includegraphics[width=300 px]{bp-antoniou}
+    \end{center}
+
+    The position of the capacitor C in each case will mirror the filter type in the first order filters, and in each case the gain will be created through $+K$.
+    
     \subsection{Second Order Active Filters Based on Two Integrator Loop Topology}
     \subsection{Single Amplifier Biquadratic Active Filters}
     \subsection{Sensitivity}
@@ -263,6 +353,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \section{Signal Generators and Waveform-Shaping Circuits}
+
+
+
     \subsection{Basic Principles of Sinusoidal Oscillators}
     
     \subsection{Bistable Multivibrators}
