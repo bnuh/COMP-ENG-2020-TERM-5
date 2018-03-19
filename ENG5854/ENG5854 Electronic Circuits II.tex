@@ -367,7 +367,9 @@
  
     $V_{hp} = \frac{R_3}{R_2+R_3}(1+ \frac{R_f}{R_1})V_i + \frac{R_2}{R_2 + R_3}(1 + R_f)(-\frac{\omega_0}{s} V_{hp}) - \frac{R_f}{R_1}(\frac{\omega_{0}^2}{s^2} V_{hp})$  \\
 
-    Where $R_f/R_1 = 1$, $R_3/R_2 = Q - 1$, and $K = 2 - (1/Q)$
+    Where $R_f/R_1 = 1$, $R_3/R_2 = 2Q - 1$, and $K = 2 - (1/Q)$ \\
+     
+    Center frequency, $KQ = 2Q - 1$ and $\omega_0 = 1/RC$.
     
     \includegraphics[width=\textwidth]{tow}
 
@@ -377,6 +379,22 @@
 
     Single-amplifier biquads (\textit{SABs}) are obtained by placing a bridged-T network in the negative-feedback path of an op amp. If the op amp is ideal, the poles realized are at the same locations as the zeros of the $RC$ network. The complementary transformation can be applied to the feedback loop to obtain another feedback loop having identical poles. Different transmission zeros are realized by feeding the input signal to circuit nodes that are connected to ground. SABs are economic in their use of op amps but are sensitive to the op-amp nonidealities and
     are thus limited to low-$Q$ applications ($Q \leq 10$).
+
+    \subsubsection{Bridged T Amplifiers}
+
+    \begin{center}
+        \includegraphics[width=200 px]{bridge-t} 
+    \end{center}
+
+    $\omega_0 = 1/\sqrt{C_1C_2R_3R_4}$ \\
+    
+    $Q = (\frac{\sqrt{C_1C_2R_3R_4}}{R_3})(\frac{1}{C_1}+\frac{1}{C_2})^{-1}$ \\
+    
+    $m = 4Q^2$ \\
+    
+    $CR = \frac{2Q}{\omega_0}$ \\
+
+    $R_3 = R$, $R_4 = R/m$
 
     \subsection{Sensitivity}
 
@@ -421,6 +439,10 @@
     A popular limiter circuit used to control the amplitude of oscillating circuits is pictured below. By disconnecting the feedback loop, the linear gain $-\frac{R_f}{R_1}$ is found. When the input source goes positive of negative, the limiting value $L_+$ or $L_-$ can be found, as seen in the transfer characteristic. \\
     
     \includegraphics[width = 200 px]{lim} \includegraphics[width = 200 px]{lim-char} 
+
+    \begin{center}
+        $L_+ = V\frac{R_4}{R_3} + V_D(1 + \frac{R_4}{R_3})$, $L_- = V\frac{R_3}{R_2} - V_D(1 + \frac{R_3}{R_2})$
+    \end{center}
 
     \subsubsection{Wien Bridge}
     \includegraphics[width = \textwidth]{wien}
