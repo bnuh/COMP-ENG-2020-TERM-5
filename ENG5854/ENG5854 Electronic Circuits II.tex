@@ -42,6 +42,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \tableofcontents
 
+
     \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -202,7 +203,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \section{Filters and Tuned Amplifiers}
-    A filter is a linear two-port network with a transfer function $T(s) = V_o(s)/V_i(s)$. For physical frequencies, the filter transmission is expressed as $T(j\omega) = |T(j\omega)|e^{j\phi(\omega)}$. The magnitude of transmission can be expressed in decibels using either the gain function $G(\omega) = 20\text{log}|T|$ or the attenuation function $A(\omega) = −20 \text{log} |T|$.    
+    A filter is a linear two-port network with a transfer function $T(s) = V_o(s)/V_i(s)$. For physical frequencies, the filter transmission is expressed as $T(j\omega) = |T(j\omega)|e^{j\phi(\omega)}$. The magnitude of transmission can be expressed in decibels using either the gain function $G(\omega) = 20\text{log}|T|$ or the attenuation function $A(\omega) = −20 \text{log} |T|$.    \\
+    
+    \textbf{Note on Imaginary Numbers} \\
+    
+    Magnitude = $\sqrt{\Re^2 + \Im^2}$ \\
+
+    $|\frac{\omega_0}{\omega_0+\omega j}| = \frac{\sqrt{\omega_0 ^2}}{\sqrt{\omega_0^2 + \omega^2}} = \frac{\omega_0 ^2}{\sqrt{\omega_0^2 + \omega^2}}$ \\
+    
+    Phase = $\text{tan}^{-1}(\Im / \Re)$ \\
+    
+    $\phi(\frac{\omega_0}{\omega_0+\omega j}) = \frac{\text{tan}^{-1}\frac{0}{\omega_0}}{\text{tan}^{-1}\frac{\omega}{\omega_0}}$
+    
     \subsection{Filter Transmission}
 
     The transmission characteristics of a filter are specified in terms of the edges of the passband(s) $\omega_p$ and the stopband(s) $\omega_s$. The maximum allowed variation in passband transmission, $A_{max}$ (dB); and the minimum attenuation required in the stopband, $A_{min}$ (dB). In some applications, the phase characteristics are also specified. \\
