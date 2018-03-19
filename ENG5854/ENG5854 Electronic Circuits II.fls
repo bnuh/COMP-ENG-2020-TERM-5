@@ -196,6 +196,15 @@ INPUT ./img/hp-antoniou.png
 INPUT img/bp-antoniou.png
 INPUT ./img/bp-antoniou.png
 INPUT ./img/bp-antoniou.png
+INPUT img/khn.png
+INPUT ./img/khn.png
+INPUT ./img/khn.png
+INPUT img/tow.png
+INPUT ./img/tow.png
+INPUT ./img/tow.png
+INPUT img/tow-feed.png
+INPUT ./img/tow-feed.png
+INPUT ./img/tow-feed.png
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Italic-tlf-ot1.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Italic-tlf-ot1.tfm
 INPUT img/bistable.png

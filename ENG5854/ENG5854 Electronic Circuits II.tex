@@ -345,9 +345,27 @@
     \end{center}
 
     The position of the capacitor C in each case will mirror the filter type in the first order filters, and in each case the gain will be created through $+K$.
+
+    \subsection{Second Order Active Filters Based on Two Integrators}
+    Biquads based on the two-integrator-loop topology are the most versatile and popular second-order filter realizations. There are two varieties: the KHN circuit, which realizes the LP, BP, and HP functions simultaneously and can be combined with the output summing amplifier to realize the notch and all-pass functions; and the Tow–Thomas circuit, which realizes the BP and LP functions simultaneously. Feedforward can be applied to the Tow–Thomas circuit to obtain the circuit, which can be designed to realize any of the second-order functions.
+    \subsubsection{KHN Biquad}
+
+    \includegraphics[width=\textwidth]{khn}
+    Analyzed by superposition, 
+ 
+    $V_{hp} = \frac{R_3}{R_2+R_3}(1+ \frac{R_f}{R_1})V_i + \frac{R_2}{R_2 + R_3}(1 + R_f)(-\frac{\omega_0}{s} V_{hp}) - \frac{R_f}{R_1}(\frac{\omega_{0}^2}{s^2} V_{hp})$  \\
+
+    Where $R_f/R_1 = 1$, $R_3/R_2 = Q - 1$, and $K = 2 - (1/Q)$
     
-    \subsection{Second Order Active Filters Based on Two Integrator Loop Topology}
+    \includegraphics[width=\textwidth]{tow}
+
+    \includegraphics[width=\textwidth]{tow-feed} 
+
     \subsection{Single Amplifier Biquadratic Active Filters}
+
+    Single-amplifier biquads (\textit{SABs}) are obtained by placing a bridged-T network in the negative-feedback path of an op amp. If the op amp is ideal, the poles realized are at the same locations as the zeros of the $RC$ network. The complementary transformation can be applied to the feedback loop to obtain another feedback loop having identical poles. Different transmission zeros are realized by feeding the input signal to circuit nodes that are connected to ground. SABs are economic in their use of op amps but are sensitive to the op-amp nonidealities and
+    are thus limited to low-$Q$ applications ($Q \leq 10$).
+
     \subsection{Sensitivity}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

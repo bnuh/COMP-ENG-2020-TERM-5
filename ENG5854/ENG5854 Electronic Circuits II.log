@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 MAR 2018 21:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 MAR 2018 21:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -656,99 +656,129 @@ File: img/bp-antoniou.png Graphic file (type png)
 <use img/bp-antoniou.png>
 Package pdftex.def Info: img/bp-antoniou.png used on input line 344.
 (pdftex.def)             Requested size: 301.1261pt x 145.82648pt.
+Missing character: There is no â in font PTSerif-Regular-tlf-ot1!
+Missing character: There is no € in font PTSerif-Regular-tlf-ot1!
+Missing character: There is no “ in font PTSerif-Regular-tlf-ot1!
+Missing character: There is no â in font PTSerif-Regular-tlf-ot1!
+Missing character: There is no € in font PTSerif-Regular-tlf-ot1!
+Missing character: There is no “ in font PTSerif-Regular-tlf-ot1!
+ [16 <./img/lp-antoniou.png> <./img/hp-antoniou.png> <./img/bp-antoniou.png>] <
+img/khn.png, id=121, 899.36pt x 392.46625pt>
+File: img/khn.png Graphic file (type png)
 
-Overfull \hbox (3.91637pt too wide) in paragraph at lines 355--355
+<use img/khn.png>
+Package pdftex.def Info: img/khn.png used on input line 353.
+(pdftex.def)             Requested size: 360.0pt x 157.09749pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
+
+ []
+
+<img/tow.png, id=122, 712.6625pt x 303.1325pt>
+File: img/tow.png Graphic file (type png)
+ <use img/tow.png>
+Package pdftex.def Info: img/tow.png used on input line 360.
+(pdftex.def)             Requested size: 360.0pt x 153.12463pt.
+
+<img/tow-feed.png, id=123, 700.6175pt x 323.2075pt>
+File: img/tow-feed.png Graphic file (type png)
+ <use img/tow-feed.png>
+Package pdftex.def Info: img/tow-feed.png used on input line 362.
+(pdftex.def)             Requested size: 360.0pt x 166.07643pt.
+
+[17 <./img/khn.png> <./img/tow.png>]
+Overfull \hbox (3.91637pt too wide) in paragraph at lines 373--373
 []\OT1/PTSerif-TLF/b/n/14.4 Signal Gen-er-a-tors and Waveform-Shaping Cir-cuits
  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
  []
 
-[16 <./img/lp-antoniou.png> <./img/hp-antoniou.png> <./img/bp-antoniou.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
+[18 <./img/tow-feed.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
 
  []
 
-<img/bistable.png, id=121, 774.895pt x 480.79625pt>
+<img/bistable.png, id=135, 774.895pt x 480.79625pt>
 File: img/bistable.png Graphic file (type png)
  <use img/bistable.png>
-Package pdftex.def Info: img/bistable.png used on input line 382.
+Package pdftex.def Info: img/bistable.png used on input line 400.
 (pdftex.def)             Requested size: 301.1261pt x 186.84216pt.
 
-[17] <img/bistable-neg.png, id=126, 874.26625pt x 647.41875pt>
+<img/bistable-neg.png, id=136, 874.26625pt x 647.41875pt>
 File: img/bistable-neg.png Graphic file (type png)
 
 <use img/bistable-neg.png>
-Package pdftex.def Info: img/bistable-neg.png used on input line 384.
+Package pdftex.def Info: img/bistable-neg.png used on input line 402.
 (pdftex.def)             Requested size: 200.75073pt x 148.6562pt.
 
-<img/bistable-neg-char.png, id=127, 742.775pt x 728.7225pt>
+<img/bistable-neg-char.png, id=137, 742.775pt x 728.7225pt>
 File: img/bistable-neg-char.png Graphic file (type png)
 
 <use img/bistable-neg-char.png>
-Package pdftex.def Info: img/bistable-neg-char.png used on input line 384.
+Package pdftex.def Info: img/bistable-neg-char.png used on input line 402.
 (pdftex.def)             Requested size: 200.75073pt x 196.94673pt.
 
-<img/bistable-pos.png, id=128, 868.24374pt x 472.76625pt>
+<img/bistable-pos.png, id=138, 868.24374pt x 472.76625pt>
 File: img/bistable-pos.png Graphic file (type png)
 
 <use img/bistable-pos.png>
-Package pdftex.def Info: img/bistable-pos.png used on input line 385.
+Package pdftex.def Info: img/bistable-pos.png used on input line 403.
 (pdftex.def)             Requested size: 200.75073pt x 109.31105pt.
 
-<img/bistable-pos-char.png, id=129, 891.33pt x 732.7375pt>
+<img/bistable-pos-char.png, id=139, 891.33pt x 732.7375pt>
 File: img/bistable-pos-char.png Graphic file (type png)
 
 <use img/bistable-pos-char.png>
-Package pdftex.def Info: img/bistable-pos-char.png used on input line 385.
+Package pdftex.def Info: img/bistable-pos-char.png used on input line 403.
 (pdftex.def)             Requested size: 200.75073pt x 165.02654pt.
 
-Overfull \hbox (43.27536pt too wide) in paragraph at lines 384--386
+Overfull \hbox (43.27536pt too wide) in paragraph at lines 402--404
 [] [] 
  []
 
 
-Overfull \hbox (43.27536pt too wide) in paragraph at lines 384--386
+Overfull \hbox (43.27536pt too wide) in paragraph at lines 402--404
 [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--386
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
 
  []
 
-[18 <./img/bistable.png> <./img/bistable-neg.png> <./img/bistable-neg-char.png>
-] <img/astable.png, id=137, 555.07375pt x 511.9125pt>
+[19 <./img/bistable.png> <./img/bistable-neg.png> <./img/bistable-neg-char.png>
+] <img/astable.png, id=146, 555.07375pt x 511.9125pt>
 File: img/astable.png Graphic file (type png)
  <use img/astable.png>
-Package pdftex.def Info: img/astable.png used on input line 410.
+Package pdftex.def Info: img/astable.png used on input line 428.
 (pdftex.def)             Requested size: 250.93842pt x 231.42862pt.
 
-[19 <./img/bistable-pos.png> <./img/bistable-pos-char.png>]
-<img/triangle.png, id=143, 1130.2225pt x 595.22375pt>
+[20 <./img/bistable-pos.png> <./img/bistable-pos-char.png>]
+<img/triangle.png, id=152, 1130.2225pt x 595.22375pt>
 File: img/triangle.png Graphic file (type png)
  <use img/triangle.png>
-Package pdftex.def Info: img/triangle.png used on input line 419.
+Package pdftex.def Info: img/triangle.png used on input line 437.
 (pdftex.def)             Requested size: 351.31378pt x 185.01698pt.
 
-<img/mono.png, id=144, 516.93124pt x 514.92375pt>
+<img/mono.png, id=153, 516.93124pt x 514.92375pt>
 File: img/mono.png Graphic file (type png)
  <use img/mono.png>
-Package pdftex.def Info: img/mono.png used on input line 429.
+Package pdftex.def Info: img/mono.png used on input line 447.
 (pdftex.def)             Requested size: 250.93842pt x 249.96556pt.
- [20 <./img/astable.png> <./img/triangle.png>] [21 <./img/mono.png>]
+ [21 <./img/astable.png> <./img/triangle.png>] [22 <./img/mono.png>]
 (./ENG5854 Electronic Circuits II.aux) ) 
 Here is how much of TeX's memory you used:
- 4723 strings out of 492995
- 73171 string characters out of 6132704
+ 4738 strings out of 492995
+ 73406 string characters out of 6132704
  143854 words of memory out of 5000000
- 8191 multiletter control sequences out of 15000+600000
+ 8203 multiletter control sequences out of 15000+600000
  29482 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,6n,39p,503b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,6n,39p,681b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fon
 ts/enc/dvips/paratype/ptserif_ot1.enc}</usr/local/texlive/2017/texmf-dist/fonts
 /type1/paratype/ptserif/PTF55F.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
@@ -763,11 +793,11 @@ nts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb>
-Output written on "ENG5854 Electronic Circuits II.pdf" (22 pages, 1290620 bytes
+Output written on "ENG5854 Electronic Circuits II.pdf" (23 pages, 1396080 bytes
 ).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 204 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
