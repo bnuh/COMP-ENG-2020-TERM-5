@@ -368,13 +368,53 @@
 
     \subsection{Sensitivity}
 
+    The classical sensitivity function
+    $S^{y}_x = \frac{\partial{y}/y}{\partial{x}/x}$
+    is a very useful tool in investigating how tolerant a filter circuit is to the unavoidable inaccuracies in component values and to the nonidealities of the op amps.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \section{Signal Generators and Waveform-Shaping Circuits}
 
+    There are two distinctly different types of signal generator: the linear oscillator, which utilizes some form of resonance, and the nonlinear oscillator or function generator, which employs a switching mechanism implemented with a multivibrator circuit.
 
+    \subsection{Oscillator Feedback loop}
 
-    \subsection{Basic Principles of Sinusoidal Oscillators}
+    When an output signal is used as input into the $v_+$ terminal of an op amp, a feedback loop is formed where, if the gain is found to be greater than unity, the feedback signal will be summed positively. The feedback and gain loop are then:
+    
+    \begin{center}
+        $A_f(s) = \frac{A(s)}{1-A(2)\beta(s)}$ \\
+        
+        $L(s) = A(s)\beta(s)$       
+    \end{center}
+    
+    For a feedback loop to produce sinusoidal osciallations at frequency $\omega_0$,
+
+    \begin{center}
+        $L(j\omega_0) = A(j\omega_0)\beta(j\omega_0) = 1$
+    \end{center}
+    
+    This is the \textit{Barkhausen criterion}. \\
+    
+
+    When analyzing a given oscillator circuit, follow the following steps:
+
+    \begin{enumerate}
+        \item Break the feedback loop to determine the loop gain $A(s)\beta(s)$.
+        \item The oscillation frequency $\omega_0$ is found as the frequency for which the phase angle of $A(j\omega)\beta(j\omega)$ is zero or, equivalently, 360.
+        \item The condition for the oscillations to start is found from \\
+        $|A(j\omega_0)\beta(j\omega_0)|$ $\geq 1$
+    \end{enumerate}
+    \subsubsection{Amplitude Control}
+    A popular limiter circuit used to control the amplitude of oscillating circuits is pictured below. By disconnecting the feedback loop, the linear gain $-\frac{R_f}{R_1}$ is found. When the input source goes positive of negative, the limiting value $L_+$ or $L_-$ can be found, as seen in the transfer characteristic. \\
+    
+    \includegraphics[width = 200 px]{lim} \includegraphics[width = 200 px]{lim-char} 
+
+    \subsubsection{Wien Bridge}
+    \includegraphics[width = \textwidth]{wien}
+    $w_0 = 1/CR$ \\
+
+    $L(s) = (1+\frac{R_2}{R_1})\frac{Z_p}{Z_p+Z_s}$
     
     \subsection{Bistable Multivibrators}
     A bistable multivibrator is an op amp circuit that switches between two stable states indefinitely when it receives a trigger signal. \\
@@ -443,10 +483,15 @@
 
     \subsection{Monostable Multivibrator}
 
-    \begin{center}
-        \includegraphics[width = 250 px]{mono}        
-    \end{center}
+    \includegraphics[width = 200 px]{mono} \includegraphics[width = 200 px]{mono-char}        
+
+    A single pulse seen at point $E$ will trigger $L_-$ saturation, where point $B$ will be pulled through the capacitor, as the negative voltage turns off $D_1$. \\
+    
+    After the period $T$, the circuit will saturate to $L_+$ again, upon which point it will stabilize until the next pulse. 
 
     \subsection{Precision Rectifiers}
+    
+    \includegraphics[width = 200 px]{prec1} \includegraphics[width = 200 px]{prec-char}  
+    \includegraphics[width = 200 px]{prec-full} \includegraphics[width = 200 px]{prec-full-char}
 
     \end{document}

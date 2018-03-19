@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 MAR 2018 21:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 MAR 2018 23:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -687,117 +687,205 @@ Package pdftex.def Info: img/tow-feed.png used on input line 362.
 (pdftex.def)             Requested size: 360.0pt x 166.07643pt.
 
 [17 <./img/khn.png> <./img/tow.png>]
-Overfull \hbox (3.91637pt too wide) in paragraph at lines 373--373
+Overfull \hbox (3.91637pt too wide) in paragraph at lines 377--377
 []\OT1/PTSerif-TLF/b/n/14.4 Signal Gen-er-a-tors and Waveform-Shaping Cir-cuits
  
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
-
- []
-
 [18 <./img/tow-feed.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 395--396
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
-<img/bistable.png, id=135, 774.895pt x 480.79625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+
+ []
+
+<img/lim.png, id=134, 454.69875pt x 564.1075pt>
+File: img/lim.png Graphic file (type png)
+ <use img/lim.png>
+Package pdftex.def Info: img/lim.png used on input line 411.
+(pdftex.def)             Requested size: 200.75073pt x 249.06021pt.
+
+<img/lim-char.png, id=135, 354.32375pt x 414.54875pt>
+File: img/lim-char.png Graphic file (type png)
+ <use img/lim-char.png>
+Package pdftex.def Info: img/lim-char.png used on input line 411.
+(pdftex.def)             Requested size: 200.75073pt x 234.87833pt.
+
+Overfull \hbox (43.27536pt too wide) in paragraph at lines 411--412
+[][] [] 
+ []
+
+[19] <img/wien.png, id=140, 759.83875pt x 421.575pt>
+File: img/wien.png Graphic file (type png)
+ <use img/wien.png>
+Package pdftex.def Info: img/wien.png used on input line 414.
+(pdftex.def)             Requested size: 360.0pt x 199.74202pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
+
+ []
+
+[20 <./img/lim.png> <./img/lim-char.png> <./img/wien.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
+
+ []
+
+<img/bistable.png, id=147, 774.895pt x 480.79625pt>
 File: img/bistable.png Graphic file (type png)
  <use img/bistable.png>
-Package pdftex.def Info: img/bistable.png used on input line 400.
+Package pdftex.def Info: img/bistable.png used on input line 440.
 (pdftex.def)             Requested size: 301.1261pt x 186.84216pt.
 
-<img/bistable-neg.png, id=136, 874.26625pt x 647.41875pt>
+<img/bistable-neg.png, id=148, 874.26625pt x 647.41875pt>
 File: img/bistable-neg.png Graphic file (type png)
 
 <use img/bistable-neg.png>
-Package pdftex.def Info: img/bistable-neg.png used on input line 402.
+Package pdftex.def Info: img/bistable-neg.png used on input line 442.
 (pdftex.def)             Requested size: 200.75073pt x 148.6562pt.
 
-<img/bistable-neg-char.png, id=137, 742.775pt x 728.7225pt>
+<img/bistable-neg-char.png, id=149, 742.775pt x 728.7225pt>
 File: img/bistable-neg-char.png Graphic file (type png)
 
 <use img/bistable-neg-char.png>
-Package pdftex.def Info: img/bistable-neg-char.png used on input line 402.
+Package pdftex.def Info: img/bistable-neg-char.png used on input line 442.
 (pdftex.def)             Requested size: 200.75073pt x 196.94673pt.
 
-<img/bistable-pos.png, id=138, 868.24374pt x 472.76625pt>
+<img/bistable-pos.png, id=150, 868.24374pt x 472.76625pt>
 File: img/bistable-pos.png Graphic file (type png)
 
 <use img/bistable-pos.png>
-Package pdftex.def Info: img/bistable-pos.png used on input line 403.
+Package pdftex.def Info: img/bistable-pos.png used on input line 443.
 (pdftex.def)             Requested size: 200.75073pt x 109.31105pt.
 
-<img/bistable-pos-char.png, id=139, 891.33pt x 732.7375pt>
+<img/bistable-pos-char.png, id=151, 891.33pt x 732.7375pt>
 File: img/bistable-pos-char.png Graphic file (type png)
 
 <use img/bistable-pos-char.png>
-Package pdftex.def Info: img/bistable-pos-char.png used on input line 403.
+Package pdftex.def Info: img/bistable-pos-char.png used on input line 443.
 (pdftex.def)             Requested size: 200.75073pt x 165.02654pt.
 
-Overfull \hbox (43.27536pt too wide) in paragraph at lines 402--404
+Overfull \hbox (43.27536pt too wide) in paragraph at lines 442--444
 [] [] 
  []
 
 
-Overfull \hbox (43.27536pt too wide) in paragraph at lines 402--404
+Overfull \hbox (43.27536pt too wide) in paragraph at lines 442--444
 [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--404
+Underfull \hbox (badness 10000) in paragraph at lines 442--444
 
  []
 
-[19 <./img/bistable.png> <./img/bistable-neg.png> <./img/bistable-neg-char.png>
-] <img/astable.png, id=146, 555.07375pt x 511.9125pt>
+[21 <./img/bistable.png>] [22 <./img/bistable-neg.png> <./img/bistable-neg-char
+.png> <./img/bistable-pos.png> <./img/bistable-pos-char.png>]
+<img/astable.png, id=163, 555.07375pt x 511.9125pt>
 File: img/astable.png Graphic file (type png)
  <use img/astable.png>
-Package pdftex.def Info: img/astable.png used on input line 428.
+Package pdftex.def Info: img/astable.png used on input line 468.
 (pdftex.def)             Requested size: 250.93842pt x 231.42862pt.
 
-[20 <./img/bistable-pos.png> <./img/bistable-pos-char.png>]
-<img/triangle.png, id=152, 1130.2225pt x 595.22375pt>
+<img/triangle.png, id=164, 1130.2225pt x 595.22375pt>
 File: img/triangle.png Graphic file (type png)
  <use img/triangle.png>
-Package pdftex.def Info: img/triangle.png used on input line 437.
+Package pdftex.def Info: img/triangle.png used on input line 477.
 (pdftex.def)             Requested size: 351.31378pt x 185.01698pt.
 
-<img/mono.png, id=153, 516.93124pt x 514.92375pt>
+[23 <./img/astable.png>] <img/mono.png, id=169, 516.93124pt x 514.92375pt>
 File: img/mono.png Graphic file (type png)
- <use img/mono.png>
-Package pdftex.def Info: img/mono.png used on input line 447.
-(pdftex.def)             Requested size: 250.93842pt x 249.96556pt.
- [21 <./img/astable.png> <./img/triangle.png>] [22 <./img/mono.png>]
-(./ENG5854 Electronic Circuits II.aux) ) 
+
+<use img/mono.png>
+Package pdftex.def Info: img/mono.png used on input line 486.
+(pdftex.def)             Requested size: 200.75073pt x 199.97089pt.
+ <img/mono-char.png, id=170, 402.50375pt x 502.87875pt>
+File: img/mono-char.png Graphic file (type png)
+
+<use img/mono-char.png>
+Package pdftex.def Info: img/mono-char.png used on input line 486.
+(pdftex.def)             Requested size: 200.75073pt x 250.80954pt.
+
+Overfull \hbox (43.27536pt too wide) in paragraph at lines 486--487
+[] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--489
+
+ []
+
+[24 <./img/triangle.png> <./img/mono.png> <./img/mono-char.png>]
+<img/prec1.png, id=179, 500.87125pt x 339.2675pt>
+File: img/prec1.png Graphic file (type png)
+ <use img/prec1.png>
+Package pdftex.def Info: img/prec1.png used on input line 494.
+(pdftex.def)             Requested size: 200.75073pt x 135.97896pt.
+
+<img/prec-char.png, id=180, 528.97626pt x 397.485pt>
+File: img/prec-char.png Graphic file (type png)
+ <use img/prec-char.png>
+Package pdftex.def Info: img/prec-char.png used on input line 494.
+(pdftex.def)             Requested size: 200.75073pt x 150.84572pt.
+
+<img/prec-full.png, id=181, 485.815pt x 447.6725pt>
+File: img/prec-full.png Graphic file (type png)
+ <use img/prec-full.png>
+Package pdftex.def Info: img/prec-full.png used on input line 495.
+(pdftex.def)             Requested size: 200.75073pt x 184.98824pt.
+
+<img/prec-full-char.png, id=182, 386.44376pt x 287.0725pt>
+File: img/prec-full-char.png Graphic file (type png)
+
+<use img/prec-full-char.png>
+Package pdftex.def Info: img/prec-full-char.png used on input line 495.
+(pdftex.def)             Requested size: 200.75073pt x 149.12962pt.
+
+Overfull \hbox (43.27536pt too wide) in paragraph at lines 494--496
+[] []
+ []
+
+
+Overfull \hbox (43.27536pt too wide) in paragraph at lines 494--496
+[] [] 
+ []
+
+[25 <./img/prec1.png> <./img/prec-char.png> <./img/prec-full.png> <./img/prec-f
+ull-char.png>] (./ENG5854 Electronic Circuits II.aux) ) 
 Here is how much of TeX's memory you used:
- 4738 strings out of 492995
- 73406 string characters out of 6132704
+ 4777 strings out of 492995
+ 74148 string characters out of 6132704
  143854 words of memory out of 5000000
- 8203 multiletter control sequences out of 15000+600000
+ 8235 multiletter control sequences out of 15000+600000
  29482 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,6n,39p,681b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fon
-ts/enc/dvips/paratype/ptserif_ot1.enc}</usr/local/texlive/2017/texmf-dist/fonts
-/type1/paratype/ptserif/PTF55F.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
-pe1/paratype/ptserif/PTF56F.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
-/paratype/ptserif/PTF75F.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb>
-Output written on "ENG5854 Electronic Circuits II.pdf" (23 pages, 1396080 bytes
+{/usr/local/texlive/2017
+/texmf-dist/fonts/enc/dvips/paratype/ptserif_ot1.enc}</usr/local/texlive/2017/t
+exmf-dist/fonts/type1/paratype/ptserif/PTF55F.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/paratype/ptserif/PTF56F.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/paratype/ptserif/PTF75F.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb>
+Output written on "ENG5854 Electronic Circuits II.pdf" (26 pages, 1596987 bytes
 ).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 230 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

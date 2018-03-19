@@ -205,6 +205,15 @@ INPUT ./img/tow.png
 INPUT img/tow-feed.png
 INPUT ./img/tow-feed.png
 INPUT ./img/tow-feed.png
+INPUT img/lim.png
+INPUT ./img/lim.png
+INPUT ./img/lim.png
+INPUT img/lim-char.png
+INPUT ./img/lim-char.png
+INPUT ./img/lim-char.png
+INPUT img/wien.png
+INPUT ./img/wien.png
+INPUT ./img/wien.png
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Italic-tlf-ot1.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Italic-tlf-ot1.tfm
 INPUT img/bistable.png
@@ -231,6 +240,21 @@ INPUT ./img/triangle.png
 INPUT img/mono.png
 INPUT ./img/mono.png
 INPUT ./img/mono.png
+INPUT img/mono-char.png
+INPUT ./img/mono-char.png
+INPUT ./img/mono-char.png
+INPUT img/prec1.png
+INPUT ./img/prec1.png
+INPUT ./img/prec1.png
+INPUT img/prec-char.png
+INPUT ./img/prec-char.png
+INPUT ./img/prec-char.png
+INPUT img/prec-full.png
+INPUT ./img/prec-full.png
+INPUT ./img/prec-full.png
+INPUT img/prec-full-char.png
+INPUT ./img/prec-full-char.png
+INPUT ./img/prec-full-char.png
 INPUT ENG5854 Electronic Circuits II.aux
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/paratype/ptserif_ot1.enc
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/paratype/ptserif/PTF55F.pfb
