@@ -1,0 +1,31 @@
+\contentsline {section}{\numberline {1}Operational Amplifiers}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Inverting Configuration}{2}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Finite Open-Loop Gain}{3}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Input and Output Resistance}{4}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.3}Weighted Summer}{4}{subsubsection.1.1.3}
+\contentsline {subsection}{\numberline {1.2}Non-Inverting Configuration}{4}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Finite Open-Loop Gain}{5}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Buffering Amplifier or Voltage Follower}{5}{subsubsection.1.2.2}
+\contentsline {subsection}{\numberline {1.3}Difference Amplifiers}{5}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}Instrumentation Bridge Amplifiers}{6}{subsubsection.1.3.1}
+\contentsline {section}{\numberline {2}Filters and Tuned Amplifiers}{8}{section.2}
+\contentsline {subsection}{\numberline {2.1}Filter Transmission}{8}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Filter Types}{9}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Filter Transmission (2nd Order Filters)}{11}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Filter Types}{12}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Second Order LCR Resonator}{14}{subsection.2.5}
+\contentsline {subsubsection}{\numberline {2.5.1}Antoniou Inductance Circuit}{15}{subsubsection.2.5.1}
+\contentsline {subsubsection}{\numberline {2.5.2}Filter Types}{17}{subsubsection.2.5.2}
+\contentsline {subsection}{\numberline {2.6}Second Order Active Filters Based on Two Integrators}{18}{subsection.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}KHN Biquad}{18}{subsubsection.2.6.1}
+\contentsline {subsection}{\numberline {2.7}Single Amplifier Biquadratic Active Filters}{19}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Bridged T Amplifiers}{20}{subsubsection.2.7.1}
+\contentsline {subsection}{\numberline {2.8}Sensitivity}{20}{subsection.2.8}
+\contentsline {section}{\numberline {3}Signal Generators and Waveform-Shaping Circuits}{21}{section.3}
+\contentsline {subsection}{\numberline {3.1}Oscillator Feedback loop}{21}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Amplitude Control}{21}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Wien Bridge}{22}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2}Bistable Multivibrators}{23}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Astable Multivibrators}{25}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Monostable Multivibrator}{26}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Precision Rectifiers}{27}{subsection.3.5}
