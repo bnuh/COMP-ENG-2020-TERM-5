@@ -36,11 +36,11 @@
 
     \pagebreak
     
+\newcommand{\code}[1]{\texttt{#1}}
 
 \tableofcontents
 
 \pagebreak
-
 \section{UML Class Diagrams}
 
 \textit{Unified Modeling Language} or \textbf{UML} is a standardized modelling language used to aid in visualizing a system. It is designed to represent activities, architecture, and interactions of software entities.
@@ -56,6 +56,7 @@
 \end{enumerate}
 
 \subsubsection{Association (“takes a” relationship)}
+
 General purpose relationship. Pointers (C++) and ref variables (Java)
 • An association is a general purpose relationship. Whenever two classes need to communicate with
 each other. They need some sort of association. Typically uses a reference variable or a pointer. In a
@@ -76,7 +77,7 @@ is used when a class is entirely purposed, or composed of, another class.
 • Looking back on our club/person example. If the club ends, the people dont end as well. Unless it’s
 Jones Town lol.
 An example of this is the following:
-• When a polygon is destroyed, all the points that it is “composed” of are also destroyed. If a point is
+When a polygon is destroyed, all the points that it is “composed” of are also destroyed. If a point is
 destroyed, then so is the polygon. Also note the multiplicity here, 1 polygon is composed of 3 or more
 points marked by 3…*.
 \subsubsection{Summary of Class Relationships}

@@ -1,11 +1,14 @@
 \documentclass[11pt]{article}
     \usepackage{caption}
+    \usepackage{graphicx}
+    \usepackage{mathtools}
+    \graphicspath{ {img/} }
     \setlength{\parindent}{0pt}
     \DeclareCaptionType{equ}[][]
     \usepackage[svgnames]{xcolor}
     
     \newcommand*{\plogo}{\fbox{$\mathcal{BM}$}}
-    
+        
     \usepackage{PTSerif}
     
     \begin{document} 
@@ -35,5 +38,35 @@
     \end{titlepage}
 
     \pagebreak
+
+    \tableofcontents
+
+    \pagebreak
+
+    \section{Modeling in the Frequency Domain}
+
+    \section{Modeling in the Time Domain}
+    \section{Time Response}
+    \section{Reduction of Multiple Systems}
+    \section{Stability}
+    \subsection{Routh-Hurwitz Criteria}
+    \subsection{Routh-Hurwitz Special Cases}
+    \section{Steady State Errors}
+    \section{Root Locus Techniques}
+    
+    The root locus approaches straight lines as asymptotes as the locus approaches infinity. Further, the equation of the asymptotes is given by the real-axis intercept, $\sigma_a$ and angle, $\theta_a$ as follows:
+    \begin{center}
+        $\sigma_a = \frac{\Sigma \text{ Finite Poles} - \Sigma \text{ Finite Zeros}}{\text{\# Finite Poles - \# Finite Zeros}}$ 
+    \end{center}
+
+    \begin{center}
+        $\theta_a = \frac{(2k - 1)\pi}{\text{\# Finite Poles - \# Finite Zeros}}$ 
+    \end{center}
+
+    Where $k = \pm 0, \pm 1, \pm 2, \pm 3$ and the angle is given in radians with respect to the positive
+extension of the real axis.
+    \section{Design via Root Locus}
+    \section{Frequency Response Techniques}
+    \section{Design via Frequency Response}
     
     \end{document}

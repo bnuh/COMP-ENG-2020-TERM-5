@@ -1,0 +1,73 @@
+PWD /Users/bryan/Git/COMP-ENG-2020-TERM-5/ENG5895
+INPUT /usr/local/texlive/2017/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/bryan/Git/COMP-ENG-2020-TERM-5/ENG5895/ENG5895 Software Design.tex
+OUTPUT ENG5895 Software Design.log
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/newfloat.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/newfloat.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/svgnam.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/svgnam.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/paratype/PTSerif.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/paratype/PTSerif.sty
+INPUT ENG5895 Software Design.aux
+INPUT ENG5895 Software Design.aux
+OUTPUT ENG5895 Software Design.aux
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/paratype/OT1PTSerif-TLF.fd
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/paratype/OT1PTSerif-TLF.fd
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Regular-tlf-ot1.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Regular-tlf-ot1.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Bold-tlf-ot1.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Bold-tlf-ot1.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Regular-tlf-ot1.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Italic-tlf-ot1.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Regular-tlf-ot1.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+OUTPUT ENG5895 Software Design.pdf
+INPUT /usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Bold-tlf-ot1.tfm
+INPUT ENG5895 Software Design.toc
+INPUT ENG5895 Software Design.toc
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+OUTPUT ENG5895 Software Design.toc
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Italic-tlf-ot1.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Bold-tlf-ot1.tfm
+INPUT ENG5895 Software Design.aux
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/paratype/ptserif_ot1.enc
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/paratype/ptserif/PTF55F.pfb
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/paratype/ptserif/PTF56F.pfb
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/paratype/ptserif/PTF75F.pfb
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
