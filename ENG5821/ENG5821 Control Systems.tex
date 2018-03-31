@@ -2,13 +2,13 @@
     \usepackage{caption}
     \usepackage{graphicx}
     \usepackage{mathtools}
-    \usepackage{bookmark}
+    \graphicspath{ {img/} }
     \setlength{\parindent}{0pt}
     \DeclareCaptionType{equ}[][]
     \usepackage[svgnames]{xcolor}
     
     \newcommand*{\plogo}{\fbox{$\mathcal{BM}$}}
-    
+        
     \usepackage{PTSerif}
     
     \begin{document} 
@@ -38,83 +38,35 @@
     \end{titlepage}
 
     \pagebreak
-    
-    \pdfbookmark[section]{\contentsname}{toc}
 
     \tableofcontents
 
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    
-    \section{Modelling}
-    
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \pagebreak
 
+    \section{Modeling in the Frequency Domain}
+
+    \section{Modeling in the Time Domain}
     \section{Time Response}
-    
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    
-    \section{Systems Reduction}
-
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+    \section{Reduction of Multiple Systems}
     \section{Stability}
-
-    Mathematically, stability for linear, time-invariant systems can be determined from the location of the closed-loop poles:
-
-    \begin{itemize}
-        \item{If the poles are only in the left half-plane, the system is stable.}
-        \item{If any poles are in the right half-plane, the system is unstable.}
-        \item{If the poles are on the j$\omega$ axis and in the left half plane, the system is marginally stable as long as the poles on the j$\omega$ axis are of unit multiplicity; it is unstable if there are any multiple j $\omega$ poles.}
-    \end{itemize}
+    \subsection{Routh-Hurwitz Criteria}
+    \subsection{Routh-Hurwitz Special Cases}
+    \section{Steady State Errors}
+    \section{Root Locus Techniques}
     
-
-    \subsection{Routh Hurwitz}
-
-    The \textit{Routh-Hurwitz criterion} lets us find how many poles are in each section of the s-plane without giving us the coordinates of the poles. Just knowing that there are poles in the right half-plane is enough to determine that a system is unstable. Under certain limited conditions, when an even polynomial is present, the Routh table can be used to factor the system’s characteristic equation.
+    The root locus approaches straight lines as asymptotes as the locus approaches infinity. Further, the equation of the asymptotes is given by the real-axis intercept, $\sigma_a$ and angle, $\theta_a$ as follows:
     \begin{center}
-        \includegraphics[width = 300 px]{img/routh-t}        
+        $\sigma_a = \frac{\Sigma \text{ Finite Poles} - \Sigma \text{ Finite Zeros}}{\text{\# Finite Poles - \# Finite Zeros}}$ 
     \end{center}
+    
     \begin{center}
-        \includegraphics[width = 300 px]{img/routh}        
+        $\theta_a = \frac{(2k - 1)\pi}{\text{\# Finite Poles - \# Finite Zeros}}$ 
     \end{center}
 
-    \begin{center}
-        \textbf{Recall} - $det = (a_1 \cdot b_2) - (a_2 \cdot b_1)$
-    \end{center}
-    \subsubsection{Zero Only in First Column}
-    \begin{center}
-        \includegraphics[width = 300 px]{img/routh-e}        
-    \end{center}
-    \begin{center}
-        \includegraphics[width = 300 px]{img/routh-e2}        
-    \end{center}
-    \subsubsection{Entire Row of Zeroes}
-    \subsubsection{Reverse Coefficients}
-    \begin{center}
-        \includegraphics[width = 300 px]{img/routh-roz}        
-    \end{center}
-    \subsection{Stability in State Space}
-
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-    \section{Steady State}
-
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-    \section{Root Locus}
-
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-    \section{Root Locus Design}
-
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-    \section{Frequency Response}
-
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-    \section{Digital Control}
-
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+    Where $k = \pm 0, \pm 1, \pm 2, \pm 3$ and the angle is given in radians with respect to the positive
+extension of the real axis.
+    \section{Design via Root Locus}
+    \section{Frequency Response Techniques}
+    \section{Design via Frequency Response}
+    
     \end{document}
