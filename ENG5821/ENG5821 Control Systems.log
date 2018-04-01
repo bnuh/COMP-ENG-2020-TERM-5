@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  31 MAR 2018 19:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 APR 2018 20:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -302,35 +302,262 @@ e 42.
 \tf@toc=\write3
 \openout3 = `"ENG5821 Control Systems.toc"'.
 
- [1]
+ [1] [2] [3] [4] [5]
 LaTeX Font Info:    Font shape `OT1/PTSerif-TLF/bx/n' in size <12> not availabl
 e
 (Font)              Font shape `OT1/PTSerif-TLF/b/n' tried instead on input lin
-e 52.
- [2] (./ENG5821 Control Systems.aux) ) 
+e 63.
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+<img/inputs.png, id=30, 1062.97125pt x 543.02875pt>
+File: img/inputs.png Graphic file (type png)
+ <use img/inputs.png>
+Package pdftex.def Info: img/inputs.png used on input line 73.
+(pdftex.def)             Requested size: 301.1261pt x 153.83676pt.
+
+<img/closedlooperror.png, id=32, 388.45125pt x 149.55875pt>
+File: img/closedlooperror.png Graphic file (type png)
+
+<use img/closedlooperror.png>
+Package pdftex.def Info: img/closedlooperror.png used on input line 79.
+(pdftex.def)             Requested size: 301.1261pt x 115.94106pt.
+
+<img/unityfeedback.png, id=33, 396.48125pt x 120.45pt>
+File: img/unityfeedback.png Graphic file (type png)
+
+<use img/unityfeedback.png>
+Package pdftex.def Info: img/unityfeedback.png used on input line 83.
+(pdftex.def)             Requested size: 301.1261pt x 91.48228pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+[7 <./img/inputs.png> <./img/closedlooperror.png> <./img/unityfeedback.png>]
+<img/integrator.png, id=41, 837.1275pt x 119.44624pt>
+File: img/integrator.png Graphic file (type png)
+ <use img/integrator.png>
+Package pdftex.def Info: img/integrator.png used on input line 89.
+(pdftex.def)             Requested size: 301.1261pt x 42.96597pt.
+File: img/closedlooperror.png Graphic file (type png)
+
+<use img/closedlooperror.png>
+Package pdftex.def Info: img/closedlooperror.png used on input line 99.
+(pdftex.def)             Requested size: 301.1261pt x 115.94106pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+[8 <./img/integrator.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+<img/types.png, id=52, 989.6975pt x 237.88875pt>
+File: img/types.png Graphic file (type png)
+ <use img/types.png>
+Package pdftex.def Info: img/types.png used on input line 129.
+(pdftex.def)             Requested size: 301.1261pt x 72.3799pt.
+ [9 <./img/types.png>] <img/asymptotes.png, id=57, 512.91624pt x 487.8225pt>
+File: img/asymptotes.png Graphic file (type png)
+
+<use img/asymptotes.png>
+Package pdftex.def Info: img/asymptotes.png used on input line 161.
+(pdftex.def)             Requested size: 301.1261pt x 286.3985pt.
+ [10]
+Missing character: There is no Â in font PTSerif-Regular-tlf-ot1!
+Missing character: There is no ° in font PTSerif-Regular-tlf-ot1!
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+<img/breakpoints.png, id=61, 608.2725pt x 525.965pt>
+File: img/breakpoints.png Graphic file (type png)
+ <use img/breakpoints.png>
+Package pdftex.def Info: img/breakpoints.png used on input line 177.
+(pdftex.def)             Requested size: 301.1261pt x 260.38156pt.
+
+[11 <./img/asymptotes.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+[12 <./img/breakpoints.png>]
+Missing character: There is no Â in font cmr10!
+Missing character: There is no … in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+
+ []
+
+Missing character: There is no Â in font cmr10!
+Missing character: There is no … in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+ []
+
+<img/angles-pole.png, id=72, 683.55376pt x 503.8825pt>
+File: img/angles-pole.png Graphic file (type png)
+
+<use img/angles-pole.png>
+Package pdftex.def Info: img/angles-pole.png used on input line 203.
+(pdftex.def)             Requested size: 301.1261pt x 221.97809pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+[13 <./img/angles-pole.png>]
+Missing character: There is no Â in font cmr10!
+Missing character: There is no … in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+Missing character: There is no Â in font cmr10!
+Missing character: There is no … in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+<img/angles-zero.png, id=77, 502.87875pt x 359.3425pt>
+File: img/angles-zero.png Graphic file (type png)
+
+<use img/angles-zero.png>
+Package pdftex.def Info: img/angles-zero.png used on input line 215.
+(pdftex.def)             Requested size: 301.1261pt x 215.17398pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+
+ []
+
+<img/calibrating.png, id=78, 724.7075pt x 380.42125pt>
+File: img/calibrating.png Graphic file (type png)
+
+<use img/calibrating.png>
+Package pdftex.def Info: img/calibrating.png used on input line 225.
+(pdftex.def)             Requested size: 301.1261pt x 158.06923pt.
+ [14 <./img/angles-zero.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+<img/parameter1.png, id=83, 545.03625pt x 171.64125pt>
+File: img/parameter1.png Graphic file (type png)
+
+<use img/parameter1.png>
+Package pdftex.def Info: img/parameter1.png used on input line 236.
+(pdftex.def)             Requested size: 301.1261pt x 94.82986pt.
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+ [15 <./img/calibrating.png> <./img/parameter1.png>]
+Overfull \hbox (19.23842pt too wide) in paragraph at lines 252--254
+\OT1/PTSerif-TLF/m/n/10.95 ap-proaches in-fin-ity. Fur-ther, the equa-tions of 
+the asymp-totes for positive-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
+
+ []
+
+[16] (./ENG5821 Control Systems.aux) ) 
 Here is how much of TeX's memory you used:
- 4533 strings out of 492995
- 69413 string characters out of 6132704
- 140854 words of memory out of 5000000
- 8037 multiletter control sequences out of 15000+600000
- 24751 words of font info for 41 fonts, out of 8000000 for 9000
+ 4593 strings out of 492995
+ 70624 string characters out of 6132704
+ 142854 words of memory out of 5000000
+ 8084 multiletter control sequences out of 15000+600000
+ 26328 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,6n,38p,331b,146s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,8n,38p,705b,192s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts
 /enc/dvips/paratype/ptserif_ot1.enc}</usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/paratype/ptserif/PTF55F.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/paratype/ptserif/PTF56F.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
 aratype/ptserif/PTF75F.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+ic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb>
-Output written on "ENG5821 Control Systems.pdf" (3 pages, 78575 bytes).
+sfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb>
+Output written on "ENG5821 Control Systems.pdf" (17 pages, 431779 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

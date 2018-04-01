@@ -1,12 +1,27 @@
 \contentsline {section}{\numberline {1}Modeling in the Frequency Domain}{2}
-\contentsline {section}{\numberline {2}Modeling in the Time Domain}{2}
-\contentsline {section}{\numberline {3}Time Response}{2}
-\contentsline {section}{\numberline {4}Reduction of Multiple Systems}{2}
-\contentsline {section}{\numberline {5}Stability}{2}
-\contentsline {subsection}{\numberline {5.1}Routh-Hurwitz Criteria}{2}
-\contentsline {subsection}{\numberline {5.2}Routh-Hurwitz Special Cases}{2}
-\contentsline {section}{\numberline {6}Steady State Errors}{2}
-\contentsline {section}{\numberline {7}Root Locus Techniques}{2}
-\contentsline {section}{\numberline {8}Design via Root Locus}{2}
-\contentsline {section}{\numberline {9}Frequency Response Techniques}{2}
-\contentsline {section}{\numberline {10}Design via Frequency Response}{2}
+\contentsline {section}{\numberline {2}Modeling in the Time Domain}{3}
+\contentsline {section}{\numberline {3}Time Response}{4}
+\contentsline {section}{\numberline {4}Reduction of Multiple Systems}{5}
+\contentsline {section}{\numberline {5}Stability}{6}
+\contentsline {subsection}{\numberline {5.1}Routh-Hurwitz Criteria}{6}
+\contentsline {subsection}{\numberline {5.2}Routh-Hurwitz Special Cases}{6}
+\contentsline {section}{\numberline {6}Steady State Errors}{7}
+\contentsline {subsection}{\numberline {6.1}Steady State Error for Unity Feedback Systems}{8}
+\contentsline {subsubsection}{\numberline {6.1.1}Steady State Error in Terms of G(s)}{8}
+\contentsline {section}{\numberline {7}Root Locus Techniques}{10}
+\contentsline {subsection}{\numberline {7.1}Sketching the Root Locus}{10}
+\contentsline {subsubsection}{\numberline {7.1.1}Number of Branches}{10}
+\contentsline {subsubsection}{\numberline {7.1.2}Symmetry}{10}
+\contentsline {subsubsection}{\numberline {7.1.3}Real Axis Segments}{10}
+\contentsline {subsubsection}{\numberline {7.1.4}Starting and Ending Points}{10}
+\contentsline {subsubsection}{\numberline {7.1.5}Behavior at Infinity}{11}
+\contentsline {subsection}{\numberline {7.2}Refining the Sketch}{11}
+\contentsline {subsubsection}{\numberline {7.2.1}Breakaway/Break-in Point}{11}
+\contentsline {subsubsection}{\numberline {7.2.2}$j\omega $-Axis Crossings}{12}
+\contentsline {subsubsection}{\numberline {7.2.3}Angles of Departure and Arrival}{13}
+\contentsline {subsection}{\numberline {7.3}Plotting and Calibrating the Root Locus}{14}
+\contentsline {subsection}{\numberline {7.4}Generalized Root Locus}{15}
+\contentsline {subsection}{\numberline {7.5}Positive Feedback Systems}{15}
+\contentsline {section}{\numberline {8}Design via Root Locus}{16}
+\contentsline {section}{\numberline {9}Frequency Response Techniques}{16}
+\contentsline {section}{\numberline {10}Design via Frequency Response}{16}
