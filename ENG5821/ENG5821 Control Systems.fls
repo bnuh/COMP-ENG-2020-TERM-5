@@ -129,9 +129,14 @@ INPUT img/closedlooperror.png
 INPUT ./img/closedlooperror.png
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Regular-tlf-ot1.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Regular-tlf-ot1.tfm
+INPUT img/unityfeedback.png
+INPUT ./img/unityfeedback.png
 INPUT img/types.png
 INPUT ./img/types.png
 INPUT ./img/types.png
+INPUT img/nonunity.png
+INPUT ./img/nonunity.png
+INPUT ./img/nonunity.png
 INPUT img/asymptotes.png
 INPUT ./img/asymptotes.png
 INPUT ./img/asymptotes.png

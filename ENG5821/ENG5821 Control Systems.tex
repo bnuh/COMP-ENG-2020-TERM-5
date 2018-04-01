@@ -39,31 +39,45 @@
 
     \pagebreak
 
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
     \tableofcontents
 
     \pagebreak
 
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
     \section{Modeling in the Frequency Domain}
 
     \pagebreak
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     
     \section{Modeling in the Time Domain}
     
     \pagebreak
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     
     \section{Time Response}
     
     \pagebreak
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     
     \section{Reduction of Multiple Systems}
     
     \pagebreak
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \section{Stability}
     \subsection{Routh-Hurwitz Criteria}
     \subsection{Routh-Hurwitz Special Cases}
     
     \pagebreak
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \section{Steady State Errors}
 
@@ -109,6 +123,19 @@
 
     \subsubsection{Steady State Error in Terms of G(s)}
 
+    \begin{center}
+        \includegraphics[width=300 px]{img/unityfeedback} \\
+    \end{center}
+
+    \begin{center}
+        $E(s) = R(s) - C(s)$ \\
+        $C(s) = E(s)G(s)$ \\ 
+        $E(s) = \frac{R(s)}{1 + G(s)}$ \\
+        $e(\infty) = \text{lim}_{s\rightarrow \infty} \frac{sR(s)}{1 + G(s)} $ \\ 
+    \end{center}
+
+    \subsection{Static Error Constants and System Type}
+
     The steady-state error for unit step inputs is \\ 
 
     $e(\infty) = \frac{1}{1 + \text{lim}_{s\rightarrow 0} G(s)}$ \\
@@ -121,6 +148,7 @@
     
     $e(\infty) = \frac{1}{\text{lim}_{s\rightarrow 0} s^2G(s)}$ \\
 
+
     The terms in the denominator are known as $k_p, k_v, k_a$, the \textbf{static error constants}, representing position, velocity and acceleration, respectively. \\
     
     Systems can also be defined by \textbf{system type}. This defines the number of pure integrations in the forward path, assuming a unity feedback system. Increasing the system type decreases the steady-state error as long as the system is stable.
@@ -129,9 +157,19 @@
         \includegraphics[width=300 px]{img/types} \\
     \end{center}
 
+    \subsection{Steady-State Error Specifications}
+
    The steady-state error is inversely proportional to the static error constant - the larger the constant, the smaller the steady-state erorr. Increasing gain increases the static error constant, thus, increasing the gain decreases the steady-state error if the system is stable.
 
+   \subsection{Forming Equivalent Unity from Non-Unity Systems}
+
+   \begin{center}
+    \includegraphics[width=300 px]{img/nonunity} \\
+    \end{center}
+
     \pagebreak
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \section{Root Locus Techniques}
 
@@ -258,11 +296,26 @@
         \end{center}    
         \end{enumerate}
 
+    \pagebreak
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
     \section{Design via Root Locus}
 
+    \pagebreak
 
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \section{Frequency Response Techniques}
+
+    \pagebreak
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
     \section{Design via Frequency Response}
     
+    \pagebreak
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
     \end{document}

@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1522625013 "/Users/bryan/Git/COMP-ENG-2020-TERM-5/ENG5821/ENG5821 Control Systems.tex" "ENG5821 Control Systems.pdf" "ENG5821 Control Systems" 1522625099
-  "/Users/bryan/Git/COMP-ENG-2020-TERM-5/ENG5821/ENG5821 Control Systems.tex" 1522625099 11427 bef891f7192a1d56170808c3dfee22b8 ""
+["pdflatex"] 1522626239 "/Users/bryan/Git/COMP-ENG-2020-TERM-5/ENG5821/ENG5821 Control Systems.tex" "ENG5821 Control Systems.pdf" "ENG5821 Control Systems" 1522626240
+  "/Users/bryan/Git/COMP-ENG-2020-TERM-5/ENG5821/ENG5821 Control Systems.tex" 1522626239 12759 7d5ee761547680e07e3ae2c63c691c27 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/paratype/ptserif_ot1.enc" 1480098668 2506 22f0da0720b7fcb1de5baefa1cc19181 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/paratype/ptserif/PTSerif-Bold-tlf-ot1.tfm" 1480098698 6260 261aa1134ca15131a8bfd0d17a3ebaf2 ""
@@ -75,9 +75,9 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "ENG5821 Control Systems.aux" 1522625013 2487 f5020a2d2f00734defb41713373ed402 ""
-  "ENG5821 Control Systems.tex" 1522625099 11427 bef891f7192a1d56170808c3dfee22b8 ""
-  "ENG5821 Control Systems.toc" 1522625013 1993 6b53025147e81f60b34d189740f541e6 ""
+  "ENG5821 Control Systems.aux" 1522626240 2808 095fe16a3bf573858bccc9425e4dc8ea ""
+  "ENG5821 Control Systems.tex" 1522626239 12759 7d5ee761547680e07e3ae2c63c691c27 ""
+  "ENG5821 Control Systems.toc" 1522626240 2260 84a44c91ee8e59d9a02fb8b1fe60cd1d ""
   "img/angles-pole.png" 1522604724 56293 b50f32d3f430df88f9f7c6980fea33b3 ""
   "img/angles-zero.png" 1522604725 40134 616eb1d464f41c2102669732ce454009 ""
   "img/asymptotes.png" 1522604725 43515 4d13da61fb9dd9e6ea9bf9b63f00bef1 ""
@@ -86,11 +86,12 @@
   "img/closedlooperror.png" 1522605626 12370 c844f9ab23203fd330b3db637d6759ca ""
   "img/inputs.png" 1522605414 61500 3971cc585668cbbe5f096619d542d4a8 ""
   "img/integrator.png" 1522605670 19325 5105b4022ababc387b361f6b28967782 ""
+  "img/nonunity.png" 1522625719 66241 4072b8c36300f33b33e4863f9457487f ""
   "img/parameter1.png" 1522604725 21336 ce26ed94e3faacd870013450bf203328 ""
   "img/types.png" 1522624860 55512 d34d92d1d1c236ea31655d76fc7210ae ""
   "img/unityfeedback.png" 1522605641 11513 fc77b14eaaa85f0f4f0cea4cbd2a41a8 ""
   (generated)
   "ENG5821 Control Systems.log"
+  "ENG5821 Control Systems.aux"
   "ENG5821 Control Systems.toc"
   "ENG5821 Control Systems.pdf"
-  "ENG5821 Control Systems.aux"
