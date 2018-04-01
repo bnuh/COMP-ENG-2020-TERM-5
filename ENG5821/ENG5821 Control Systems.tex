@@ -6,7 +6,7 @@
     \setlength{\parindent}{0pt}
     \DeclareCaptionType{equ}[][]
     \usepackage[svgnames]{xcolor}
-    
+    \newcommand\tab[1][1cm]{\hspace*{#1}}    
     \newcommand*{\plogo}{\fbox{$\mathcal{BM}$}}
         
     \usepackage{PTSerif}
@@ -52,6 +52,9 @@
     \subsection{Routh-Hurwitz Special Cases}
     \section{Steady State Errors}
     \section{Root Locus Techniques}
+
+    The following sections apply to \textbf{Negative Feedback Closed Loop} systems.
+
     \subsection{Sketching the Root Locus}
 
     \subsubsection{Number of Branches}
@@ -142,7 +145,7 @@ extension of the real axis.
         \includegraphics[width=300 px]{img/angles-zero} \\
     \end{center}  
 
-    \subsubsection{Plotting and Calibrating the Root Locus}
+    \subsection{Plotting and Calibrating the Root Locus}
 
     When locating points on the root locus and finding their specified gain, for example as it crosses the radial line representing 20\% overshoot, such as the below graph where $\zeta = 0.45$ \\ 
 
@@ -151,6 +154,39 @@ extension of the real axis.
     \begin{center}
         \includegraphics[width=300 px]{img/calibrating} \\
     \end{center}  
+
+    \subsection{Generalized Root Locus}
+
+    If finding the root locus of a system concerning a single parameter instead of gain $K$, an equivalent system can be used where the denominator is represented as $1 + p_1G(s)H(s)$. From the below system,\\ 
+    \begin{center}
+    $T(s) = \frac{KG(s)H(s)}{1 + KG(s)H(s)} = \frac{10}{s^2 + (p_1 +2)s + 2p_1 + 10} = \frac{10}{s^2 + 2s + 10 + p_1(s + 2)}$
+    \end{center}
+
+    \begin{center}
+        \includegraphics[width=300 px]{img/parameter1} \\
+    \end{center}  
+
+    \subsection{Positive Feedback Systems}
+
+    $KG(s)H(s) = 1 =1 \angle k360^\circ \tab k = 0, 1, 2, 3... $
+
+    \begin{enumerate}
+        \item \textbf{Number of Branches} \\
+        No change
+        \item \textbf{Symmetry} \\
+        No change
+        \item \textbf{Real Axis Segments} \\
+        On the real axis, the root locus for positive-feedback systems exists to the left of an \textbf{even} number of real-axis, finite open-loop poles and/or finite open-loop zeros.
+        \item \textbf{Starting and Ending Points} \\
+        The root locus for positive-feedback systems begins at the finite and infinite poles of $G(s)H(s)$ and ends at the finite and infinite zeros of $G(s)H(s)$.
+        \item \textbf{Behavior at Infinity} \\        
+        The root locus approaches straight lines as asymptotes as the locus approaches infinity. Further, the equations of the asymptotes for positive-feedback systems are given by the real-axis intercept, $\sigma_a$, and angle, $\theta_a$, as follows: \\
+        \begin{center}
+            $\sigma_a = \frac{\sum Finite Poles - \sum Finite Zeros}{\# Finite Poles - \# Finite Zeros}$ \\
+
+            $\theta_a = \frac{k2\pi}{\# Finite Poles - \# Finite Zeros}$
+        \end{center}    
+        \end{enumerate}
 
     \section{Design via Root Locus}
     \section{Frequency Response Techniques}
