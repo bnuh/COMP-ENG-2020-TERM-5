@@ -40,7 +40,6 @@
     \pagebreak
 
     \tableofcontents
-
     \pagebreak
 
     \section{Modeling in the Frequency Domain}
@@ -84,6 +83,75 @@
 
     Where $k = \pm 0, \pm 1, \pm 2, \pm 3$ and the angle is given in radians with respect to the positive
 extension of the real axis.
+
+    \begin{center}
+    \includegraphics[width=300 px]{img/asymptotes} \\
+    \end{center}
+
+    \subsection{Refining the Sketch}
+
+    \subsubsection{Breakaway/Break-in Point}
+
+    At the breakaway or break-in point, the branches of the root locus form an angle of 180°/$n$ with the real axis, where $n$ is the number of closed-loop poles arriving at or departing from the single breakaway or break-in point on the real axis. These are the points when gain is at its minimum and maximum, respectively. \\
+        
+    For all points on the root locus, \\
+    
+    $K = -\frac{1}{G(s)H(s)}$, $\frac{1}{G(s)H(s)} = -1$ and by differential calculus, \\
+    
+    $K = -\frac{1}{G(\sigma)H(\sigma)}$ where breakpoints occur - setting $\sigma$ to 0 will produce $K$.
+
+    \begin{center}
+        \includegraphics[width=300 px]{img/breakpoints} \\
+    \end{center}
+
+    Or, conversely, \\
+
+    $\sum \frac{1}{\sigma + z_i} = \sum \frac{1}{\sigma + p_i}$ \\
+
+    Where $z$ and $p$ are the zero and pole values. By equating the two sides and simplifying to a single equation, factoring can produce $\sigma$.
+
+    \subsubsection{$j\omega$-Axis Crossings}
+
+    The crossing of the $j\omega$ axis defines when the system becomes unstable. The crossing of the $\omega$ axis deines the frequency of oscillation, while the gain at the $j\omega$ axis yields the maximum positive gain for system stability. \\ 
+
+    The $j\omega$ axis crossings can be found using the Routh-Hurwitz criterion. Forcing a row of zeros yields the gain, then going back a row and solving for the roots yields the frequency at the imaginary axis crossing.
+
+    \subsubsection{Angles of Departure and Arrival}
+
+    If we assume a point on the root locus $\epsilon$ close to a complex \textbf{pole}, the sum of angles drawn from all finite poles and zeros to this point is an odd multiple of 180$^\circ$. Except for the \textbf{pole} that is $\epsilon$ close to the point, we assume all angles drawn from all other poles and zeros are drawn directly to the \textbf{pole} that is near the point. Thus, the only unknown angle in the sum is the angle drawn from the \textbf{pole} that is $\epsilon$ close. We can solve for this unknown angle, which is also the angle of departure from this complex \textbf{pole}. \\
+
+    $-\theta_1 + \theta_2 + \theta_3 - \theta_4 - \theta_5 + \theta_6 =(2k+1)180^\circ$ \\ 
+    
+    \textit{or} \\ 
+
+    $\theta_1 = \theta_2 + \theta_3 - \theta_4 - \theta_5 + \theta_6 -(2k+1)180^\circ$ \\
+
+    \begin{center}
+        \includegraphics[width=300 px]{img/angles-pole} \\
+    \end{center}    
+    
+    If we assume a point on the root locus $\epsilon$ close to a complex \textbf{zero}, the sum of angles drawn from all finite poles and zeros to this point is an odd multiple of 180$^\circ$. Except for the \textbf{zero} that is $\epsilon$ close to the point, we can assume all angles drawn from all other poles and zeros are drawn directly to the \textbf{zero} that is near the point. Thus, the only unknown angle in the sum is the angle drawn from the \textbf{zero} that is $\epsilon$ close. We can solve for this unknown angle, which is also the angle of arrival to this complex \textbf{zero}. \\ 
+
+    $-\theta_1 + \theta_2 + \theta_3 - \theta_4 - \theta_5 + \theta_6 =(2k+1)180^\circ$ \\ 
+    
+    \textit{or} \\ 
+
+    $\theta_2 = \theta_1 - \theta_3 + \theta_4 + \theta_5 - \theta_6 -(2k+1)180^\circ$ \\
+
+    \begin{center}
+        \includegraphics[width=300 px]{img/angles-zero} \\
+    \end{center}  
+
+    \subsubsection{Plotting and Calibrating the Root Locus}
+
+    When locating points on the root locus and finding their specified gain, for example as it crosses the radial line representing 20\% overshoot, such as the below graph where $\zeta = 0.45$ \\ 
+
+    Evaluating the graph at points along the line, and summing the angles from poles and zeros, it can be determined if a point is on the root locus if the angles are a multiple of 180$^\circ$.
+
+    \begin{center}
+        \includegraphics[width=300 px]{img/calibrating} \\
+    \end{center}  
+
     \section{Design via Root Locus}
     \section{Frequency Response Techniques}
     \section{Design via Frequency Response}
