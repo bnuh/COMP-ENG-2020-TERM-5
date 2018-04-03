@@ -194,7 +194,6 @@
     
     $e(\infty) = \frac{1}{\text{lim}_{s\rightarrow 0} s^2G(s)}$ \\
 
-
     The terms in the denominator are known as $k_p, k_v, k_a$, the \textbf{static error constants}, representing position, velocity and acceleration, respectively. \\
     
     Systems can also be defined by \textbf{system type}. This defines the number of pure integrations in the forward path, assuming a unity feedback system. Increasing the system type decreases the steady-state error as long as the system is stable.
@@ -202,6 +201,8 @@
     \begin{center}
         \includegraphics[width=300 px]{img/types} \\
     \end{center}
+
+    This will also be apparent by the structure of the system. An $s$ factor in the denominator which won't cancel with $u(t)$ input indicates the system is not Type 0. Therefore, testing with a ramp and parabola input will determine whether the static constant is finite for each input.
 
     \subsection{Steady-State Error Specifications}
 
