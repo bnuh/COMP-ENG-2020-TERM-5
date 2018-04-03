@@ -208,6 +208,23 @@
 
    The steady-state error is inversely proportional to the static error constant - the larger the constant, the smaller the steady-state erorr. Increasing gain increases the static error constant, thus, increasing the gain decreases the steady-state error if the system is stable.
 
+   \subsection{Steady State Disturbances}
+
+   \begin{center}
+    \includegraphics[width=300 px]{img/disturbance} \\
+    \end{center}
+
+    $C(s) = E(s)G_1(s)G_2(s) + D(s)G_2(s)$ \\
+    
+    However, $C(s) = R(s) - E(s)$, therefore, \\
+    
+    $E(s) = \frac{1}{1 + G_1(s)G_2(s)}R(s) - \frac{G_2(s)}{1+G_1(s)G_2(s)}D(s)$ \\
+    
+    $e(\infty) = \frac{s}{1 + G_1(s)G_2(s)}R(s) - \frac{sG_2(s)}{1+G_1(s)G_2(s)}D(s)$ \\ 
+
+    $e(\infty) = e_R(\infty) + e_D(\infty)$
+
+
    \subsection{Forming Equivalent Unity from Non-Unity Systems}
 
    \begin{center}
