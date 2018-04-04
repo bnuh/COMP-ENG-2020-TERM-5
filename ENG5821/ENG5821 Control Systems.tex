@@ -145,6 +145,50 @@
     \end{center}
 
     \subsection{Routh-Hurwitz Special Cases}
+
+    \subsubsection{Zero Only in the First Column}
+
+    \begin{center}
+        \includegraphics[width=300 px]{img/routh-e}
+        \includegraphics[width=300 px]{img/routh-e2}
+    \end{center}
+
+    Assume a value for the variable $\epsilon$, and follow through the system, tracking sign changes. This should be the same for either assumed value of $\epsilon$. \\ 
+
+    Alternately, the reverse coefficients of the denominator can be used in analysis, as seen below:
+
+    \begin{center}
+        \includegraphics[width=300 px]{img/routh-recip}
+        \includegraphics[width=300 px]{img/routh-recip2}
+    \end{center}
+    
+    \subsubsection{Entire Row Is Zero}
+
+    If an entire row is zero, return to the row above, and form the equation represented by those coefficients. For example, from the system below, at row $s^3$ there is a row of zeroes. From the row $s^4$ above, form the equation $s^4 + 6s^2 + 8$. The derivative of this equation will take the place of the row of zeroes. Therefore, $4s^3 + 12s + 0$ will take the place of the zeroes in row $s^3$.
+
+    \begin{center}
+        \includegraphics[width=300 px]{img/routh-roz}
+    \end{center}
+
+    In the case of a row of zeroes formed by a row of even polynomials, for example $s^4 + s^2 + 1$, it can be determined that its roots are symmetric about the origin. If we don't have a row of zeroes, we cannot have roots on the $jw$-axis. Once a row of zeroes is found for an even polynomial, everything from that row to the end is a test of only the even polynomial. Because in the example above, the zeroes occur in the $s^3$ row, it's considered the $s^4$ row that causes the zeroes, and it is therefore even.
+
+    \begin{center}
+        \includegraphics[width=300 px]{img/routh-zeroes}
+    \end{center}
+
+    \begin{center}
+        \includegraphics[width=300 px]{img/routh-roz-analysis}
+    \end{center}
+
+    From the example above, the row of zeroes can be seen to occur in the $s^4$ row. The rest of rows are therefore a test of the even polynomial, where it is determined there are no changes in sign. Thus, there are no poles in the right half plane, and no left plane poles can exist due to symmetry. Therefore, all four poles must be on the $jw$-axis. \\ 
+
+    The findings for the even polynomials are then combined with the findings for the rest of the system: \\
+
+    \begin{center}
+        \includegraphics[width=300 px]{img/routh-even}
+    \end{center}
+
+    \pagebreak
     
     \pagebreak
 
