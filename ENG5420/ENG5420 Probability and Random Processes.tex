@@ -668,6 +668,51 @@ For a partition $A_i$ where $I(A_i) = -\text{log}_2Pr[A_i]$, \\
 
 \section{Multiple Random Variables}
 
+\subsection{Discrete Random Variables}
+
+\subsubsection{The Joint PMF}
+
+\begin{center}
+    \includegraphics[width=300 px]{img/marginal} \\
+\end{center}
+
+\begin{center}
+    \includegraphics[width=300 px]{img/marginal2} \\
+\end{center}
+
+\begin{center}
+    $f_{K_1}[k_1] = \sum\limits_{k2=-\infty}^\infty f_{K_1K_2}[k_1,k_2]$ \\
+
+    $f_{K_2}[k_2] = \sum\limits_{k1=-\infty}^\infty f_{K_1K_2}[k_1,k_2]$    
+\end{center}
+
+
+\subsubsection{Independent Random Variables}
+
+\begin{center}
+    $f_{K1K2}[k_1,k_2] = f_{K_1}[k_1]\cdot f_{K_2}[k_2]$
+\end{center}
+
+Notice that this is a special condition for random variables and does not apply in general! In particular, if two random variables are not independent, there is no way that the joint PMF can be inferred from the marginals. In that case the marginals are insufficient to describe any joint properties between K1 and K2.
+
+\subsubsection{Conditional PMFs}
+
+\begin{center}
+    $f_{K_1|K_2}[k_1|k_2] = Pr[K_1 = k_1|K_2 = k_2] = \frac{f_{K_1K_2}[k_1,k_2]}{f_{K_2}[k_2]}$
+\end{center}
+
+\begin{center}
+    \includegraphics[width=300 px]{img/conditionalpmf}  \\
+\end{center}
+
+\subsubsection{Bayes' Rule}
+
+Similarly to earlier Bayes' Rule applications, 
+
+\begin{center}
+    $f_{K_1|K_2}[k_1|k_2] = \frac{f_{K_2|K_1}[k_2|k_1]f_{K_1}[k_1]}{f_{K_2}[k_2]} = \frac{f_{K_2|K_1}[k_2|k_1]f_{K_1}[k_1]}{\sum\limits_{k1=-\infty}^\infty f_{K_2|K_1}[k_2|k_1]f_{K_1}[k_1]}$
+\end{center}
+
 \pagebreak
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
