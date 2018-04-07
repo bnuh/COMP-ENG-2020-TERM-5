@@ -695,23 +695,40 @@ For a partition $A_i$ where $I(A_i) = -\text{log}_2Pr[A_i]$, \\
 
 Notice that this is a special condition for random variables and does not apply in general! In particular, if two random variables are not independent, there is no way that the joint PMF can be inferred from the marginals. In that case the marginals are insufficient to describe any joint properties between K1 and K2.
 
-\subsubsection{Conditional PMFs}
+\subsection{Continuous Random Variables}
+
+\subsubsection{Joint Distributions}
 
 \begin{center}
-    $f_{K_1|K_2}[k_1|k_2] = Pr[K_1 = k_1|K_2 = k_2] = \frac{f_{K_1K_2}[k_1,k_2]}{f_{K_2}[k_2]}$
+    \includegraphics[width=300 px]{img/joint-cdf}  \\
+\end{center}
+
+
+\begin{center}
+    \textbf{CDF} \\
+    
+    $f_{X_1X_2}(x_1,x_2) = \frac{\partial^2F_{X_1X_2}(x_1,x_2) }{\partial x_1 \partial x_2}$
 \end{center}
 
 \begin{center}
-    \includegraphics[width=300 px]{img/conditionalpmf}  \\
+    \textbf{PDF} \\ 
+    $F_{X_1X_2}(x_1,x_2) = \int_{-\infty}^{x_1} \int_{-\infty}^{x_2} f_{X_1X_2}(u_1,u_2)du_1du_2$
 \end{center}
 
-\subsubsection{Bayes' Rule}
+\subsubsection{Marginal PDFs}
 
-Similarly to earlier Bayes' Rule applications, 
+Similar to the marginal PMF, each distribution $X_1$ and $X_2$ can be described by its own PDF:
 
 \begin{center}
-    $f_{K_1|K_2}[k_1|k_2] = \frac{f_{K_2|K_1}[k_2|k_1]f_{K_1}[k_1]}{f_{K_2}[k_2]} = \frac{f_{K_2|K_1}[k_2|k_1]f_{K_1}[k_1]}{\sum\limits_{k1=-\infty}^\infty f_{K_2|K_1}[k_2|k_1]f_{K_1}[k_1]}$
+$f_{X_1}(x_1) = \int_{-\infty}^{\infty} f_{X_1X_2}(x_1,x_2)dx_2$ 
 \end{center}
+\begin{center}
+    $f_{X_2}(x_2) = \int_{-\infty}^{\infty} f_{X_1X_2}(x_1,x_2)dx_1$ 
+\end{center}
+\begin{center}
+    \includegraphics[width=300 px]{img/marginal-pdf}  \\
+\end{center}
+
 
 \pagebreak
 
