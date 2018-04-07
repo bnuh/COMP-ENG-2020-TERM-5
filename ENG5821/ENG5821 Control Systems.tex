@@ -332,6 +332,8 @@
     \includegraphics[width=300 px]{img/asymptotes} \\
     \end{center}
 
+    When finding $K$, remember that the denominator of the transfer function $T(s)$, $1 + KG(s)H(s) = 0$ if the point is on the root locus. Set $s$ to a known point on the root locus (break in points work) and solve $1 + KG(s)H(s) = 0$ for $K$.
+
     \subsection{Refining the Sketch}
 
     \subsubsection{Breakaway/Break-in Point}
@@ -398,6 +400,10 @@
         \includegraphics[width=300 px]{img/calibrating} \\
     \end{center}  
 
+    $\zeta = cos(\theta)$, therefore $cos^{-1}\zeta = \theta$ \\ 
+
+    From this value $\theta$, the $x$ and $y$ components of the radial line can be plotted, using cos$\theta$, sin$\theta$, and $r$sin$\theta$, $r$cos$\theta$ to find the components of each radius. 
+
     \subsection{Generalized Root Locus}
 
     If finding the root locus of a system concerning a single parameter instead of gain $K$, an equivalent system can be used where the denominator is represented as $1 + p_1G(s)H(s)$. From the below system,\\ 
@@ -407,7 +413,8 @@
 
     \begin{center}
         \includegraphics[width=300 px]{img/parameter1} \\
-    \end{center}  
+    \end{center}
+
 
     \subsection{Positive Feedback Systems}
 
@@ -437,18 +444,18 @@
 
     \section{Design via Root Locus}
 
+    \pagebreak 
+
+    \begin{center}
+        \includegraphics[width=375 px]{img/comps} \\
+    \end{center}  
+
     \pagebreak
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \section{Frequency Response Techniques}
 
-    \pagebreak
-
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-    \section{Design via Frequency Response}
-    
     \pagebreak
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
