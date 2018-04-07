@@ -1,4 +1,5 @@
 \documentclass[11pt]{article}
+    
     \usepackage{caption}
     \usepackage{graphicx}
     \usepackage{mathtools}
@@ -379,14 +380,15 @@ Random variables deal with a function $X$ which maps a number $x$ from the sampl
 Discrete random variables involve events with a discrete set of values.
 \subsubsection{Probability Mass Function}
 The \textit{Probability Mass Function}, or \textbf{PMF} $f_k [k]$ is a plotting of the probability of all events associated with a random variable $K$. The sum of all amplitudes of the graph, $\sum f_k [k]$ will be 1.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{pmf}
-    \caption{Probability Mass Function}
-    \label{fig:pmf}
-\end{figure}
 
-For a given value $k$, the probability of this value is $f_k[k] = Pr[K = k]$.
+\begin{center}
+    \includegraphics[width=300 px]{img/pmf} \\
+\end{center}
+
+For a given value $k$, the probability of this value is $f_k[k] = Pr[K = k]$. \\
+
+Consider $f_k[k]$ the ranking of weights of each possible outcome. If an outcome is more probable, it is heavier, and plotted more above the others.
+
 \subsubsection{Bernoulli Random Variable}
 A Bernoulli RV is a discrete variable which will only produce values of $1$ and $0$. Therefore, the likelhood of one will be $p$ and the other will be $1-p$.
 \subsubsection{Binomial Random Variable}
@@ -396,12 +398,9 @@ The Bernoulli concept can be extended with combinatorics, for example in the bas
 As shown in earlier sections, there are $n\choose{k}$ possible variations of $k$ bits in an $n$-bit long transmission. If our likelihood of non-error bits is $p$, and error is $(1-p)$, the above will be intuitively correct.
 \subsubsection{Geometric Random Variable}
 Geometric RVs concern a wait for an event to happen. Should the expected event be given $p$ probability, there will be $k$ consecutive $(1-p)$ events before the $p$ occurs. Therefore, as seen in the graph below, the event occuring at the second transmission will be $(1-p)^2p$. 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{geo1}
-    \caption{Geometric Random Variable}
-    \label{fig:geo1}
-\end{figure}
+\begin{center}
+    \includegraphics[width=300 px]{img/geo1} \\
+\end{center}
 
 \begin{equ}[!ht]
     \begin{equation}
@@ -420,12 +419,9 @@ For a situtation where revents occur randomly at a given rate $\lambda$ over a c
   \caption{Poisson Random Variable PMF}
 \end{equ} 
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{poisson}
-    \caption{Poisson Distribution}
-    \label{fig:poisson}
-\end{figure}
+\begin{center}
+    \includegraphics[width=300 px]{img/poisson} \\
+\end{center}
 
 Note that for finding the probability of an event occurring after time $t$, the probability becomes $Pr[0] + Pr[1] + Pr[2] ... + Pr[t]$.
 
@@ -440,12 +436,9 @@ When all events are equally likely, the probability of each can be found easily 
   \caption{Uniform Distribution}
 \end{equ} 
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{uniform}
-    \caption{Uniform Distribution}
-    \label{fig:uniform}
-\end{figure}
+\begin{center}
+    \includegraphics[width=300 px]{img/uniform} \\
+\end{center}
 
 \subsection{Continuous RVs and Their Distributions}
 
@@ -453,15 +446,11 @@ For values which can take on a continuum of values, such as voltage, velocity, a
 
 By this notation we can see that by following the graph from left to right, the probability of the event occuring to the \textbf{left} of value $x$ will be found by the amplitude of the CDF at that value. Therefore, as $x \rightarrow \infty$, $F_x \rightarrow 1$. \\
 
+\begin{center}
+    \includegraphics[width=300 px]{img/cdf} \\
+\end{center}
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{cdf}
-    \caption{Continuous Density Function}
-    \label{fig:cdf}
-\end{figure}
-
-When finding the probability of a value occurring between points $a$ and $b$, their CDF values can be used. \\
+When finding the probability of a value occurring between points $a$ and $b$, their CDF values can be used. Remember this is \textbf{Distribution}, not \textbf{Density}, as we'll see in the PDF below. By keeping this straight, their purposes should be easy to remember. \\
 
 
 \begin{equ}[!ht]
@@ -473,12 +462,9 @@ When finding the probability of a value occurring between points $a$ and $b$, th
 
 The \textit{Probability Density Function} or \textbf{PDF} is a derivative of the CDF that can also be used to find this probability:
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{pdf1}
-    \caption{Probability Density Function}
-    \label{fig:pdf}
-\end{figure}
+\begin{center}
+    \includegraphics[width=300 px]{img/pdf1} \\
+\end{center}
 
 \begin{equ}[!ht]
     \begin{equation}
@@ -487,7 +473,7 @@ The \textit{Probability Density Function} or \textbf{PDF} is a derivative of the
   \caption{CDF Probability Within a Range (b $>$ a) From Integration}
 \end{equ}  
 
-This can be seen to be similar to the Probability Mass Function, as it will integrate over its full range to 1 -  $\int_{\infty}^{\infty}f_X(x)dx = 1$ \\
+This can be seen to be similar to the Probability Mass Function, as it will integrate over its full range to 1 -  $\int_{\infty}^{\infty}f_X(x)dx = 1$. The difference is due to continous distributions being non-discrete - we can no longer say an item has mass, but points will now be denser (equivalent to heavier). \\
 
 To use the PDF to find the probability of a number $a + \Delta x$, we can multiply the PDF value at this point by the increment value to find the probability.
 
@@ -519,17 +505,11 @@ The Gaussian or "normal" random variable arises naturally in numerous cases. It 
   \caption{The Gaussian PDF}
 \end{equ} 
 
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{gauss}
-    \caption{Gaussian Random Variable}
-    \label{fig:gauss}
-\end{figure}
+\begin{center}
+    \includegraphics[width=300 px]{img/gauss} \\
+\end{center}
 
 The square of the standard deviation, $\sigma ^2$ is known as the variance, and is a measure of the total width of the bell between these points.\\
-
-
 
 The standard form of the PDF, centered at $0$ with a $\sigma ^2$ $=1$ can be used to express $Pr[X \leq x]$:
 
@@ -546,14 +526,6 @@ The standard form of the PDF, centered at $0$ with a $\sigma ^2$ $=1$ can be use
 
 And as with any other CDF, $Pr[a < x \leq b] = F_X(b) - F_x(a)$ \\
 
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{q1}
-    \caption{Probability Using Q ($x$ $>$ $\mu$)}
-    \label{fig:q1}
-\end{figure}
-
 These $\Phi$ values, which can be used as a CDF, as with other standard Gaussian values, can be found by table. 
 
 \subsubsection{Gaussian Q Values}
@@ -569,6 +541,11 @@ In cases where the probablity of values at either tail of a Gaussian is required
 
 When a value $x$ is sought which is less than $\mu$, the argument of the $Q$ function will be negative, and define the left tail of the CDF. 
 
+
+\begin{center}
+    \includegraphics[width=300 px]{img/q1} \\
+\end{center}
+
 \begin{equ}[!ht]
     \begin{equation}
         Pr[X < x] = Q(\frac{x - \mu}{\sigma})
@@ -576,12 +553,17 @@ When a value $x$ is sought which is less than $\mu$, the argument of the $Q$ fun
   \caption{The Gaussian Q Function}
 \end{equ}
 
+
 \begin{equ}[!ht]
     \begin{equation}
         Pr[X > x] = Q(\frac{- x + \mu}{\sigma})
     \end{equation}
   \caption{The Gaussian Q Function with Negative Argument}
 \end{equ} 
+
+\begin{center}
+    \includegraphics[width=300 px]{img/q2} \\
+\end{center}
 
 \begin{center}
     $Pr[a \leq x \leq b] = Q(\frac{b-\mu}{\sigma}) - Q(\frac{a-\mu}{\sigma})$
@@ -600,7 +582,7 @@ Expecation can be considered the average of the expected values in a sample spac
   \caption{Expectation of a Discrete RV}
 \end{equ} 
 
-For continuous random variables, when the PDF exists, the expectation can be calculated whenever the variable converges absolutely. \pagebreak
+For continuous random variables, when the PDF exists, the expectation can be calculated whenever the variable converges absolutely: \\
 
 \begin{equ}[!ht]
     \begin{equation}
@@ -608,6 +590,8 @@ For continuous random variables, when the PDF exists, the expectation can be cal
     \end{equation}
   \caption{Expectation of a Continous RV}
 \end{equ} 
+
+An important feature of the expectation is its \textbf{invariance}.
 
 \begin{center}
     $E\{c\} = c$ \\
@@ -623,9 +607,9 @@ For continuous random variables, when the PDF exists, the expectation can be cal
 
 The moment is the produced when the $X$ value of the expectation is raised to the $n$ power. If $g(X) = X^n$ for $n$ = 1, 2, 3 \\
 
-        $E\{X^n\} = \int_{-\infty}^{\infty}x^nf_X(x)dx$  (continous) 
-        $E\{X^n\} = \sum k^n f_K[k] $  (discrete)
+        $E\{X^n\} = \int_{-\infty}^{\infty}x^nf_X(x)dx$  (continous) \\
 
+        $E\{X^n\} = \sum k^n f_K[k] $  (discrete) \\ 
 
 The first moment is the \textit{mean}, and each further $n$ value is called the $n$th moment of the distribution.
 
@@ -633,12 +617,15 @@ The first moment is the \textit{mean}, and each further $n$ value is called the 
 
 The \textit{Central Moment} is a mean of a random variable not centered at 0. Of particular importance is the \textbf{variance}, the square root of which will grant the width of the distribution.
 
-\begin{equ}[!ht]
-    \begin{equation}
-        \sigma ^{2}_x = Var[X] = E\{X^2\} - m_X^2\
-    \end{equation}
-  \caption{Variance}
-\end{equ} 
+\begin{center}
+    $\sigma^2 = \text{Var}[X] = E\{(X-m_X)^2\}$, the 2nd central moment \\
+\end{center}
+
+\begin{center}
+    $m_X = E\{X\}$, the \textit{mean} of $X$ \\
+\end{center}
+
+$\sigma_X$ is known as the \textit{Standard Deviation}, and is a measure of the width.
 
 \begin{center}
     Var$[c] = 0$ \\
@@ -647,5 +634,44 @@ The \textit{Central Moment} is a mean of a random variable not centered at 0. Of
     
     Var$[cX] = $ $c^2$Var$[X]$
 \end{center}
+
+Also note, $\text{Var}[X] = E\{X^2\} - m_X^2$ - this method is much easier to solve than the initial method of finding variance.
+
+\subsection{Entropy}
+
+From the topic of information encoding, it was found that the definition of information for an event $A$ is: \\
+
+\begin{center}
+$I(A) = -\text{log}_2Pr[A]$ bits
+\end{center}
+
+And the average of information for two exclusive events $A$ and $B$:
+
+\begin{center}
+    $H = Pr[A]I(A) + Pr[B]I(B)$
+\end{center}
+
+The definition of average information is in fact an expectation for two events that form a partition of a sample space.\\
+
+For a partition $A_i$ where $I(A_i) = -\text{log}_2Pr[A_i]$, \\
+
+\begin{center}
+    $H = E\{I\} = \sum I(A_i)Pr[A_i] = \sum(-\text{log}_2Pr[A_i])Pr[A_i]$ \\
+    or \\
+    
+    $-\sum(\text{log}_2Pr[A_i])Pr[A_i]$
+\end{center}
+
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Multiple Random Variables}
+
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Random Processes}
 
 \end{document}
