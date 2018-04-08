@@ -672,6 +672,24 @@ For a partition $A_i$ where $I(A_i) = -\text{log}_2Pr[A_i]$, \\
 
 \subsubsection{The Joint PMF}
 
+Joint probability distribution can be thought of as Pr[($X \leq x \text{ and } Y \leq y$)] \\ 
+
+$F_{X,Y}(x,y)$ where $F_X(x) = Pr[X \leq x]$ and $F_Y(y) = Pr[Y \leq y]$ \\
+
+A relationship can be \textit{deterministic}, such as $Y = 2X + 1$ or \textit{probabilistic}, where probabilities of one value will affect the other. \\
+
+\textbf{Joint Probabilities} refers to the probability of two variables taken together, such as Pr[($X \leq q$) and ($Y \leq y$)]. To answer this, the \textbf{Joint CDF}, $F_{X,Y}(x,y)$ must be found. \\
+
+Recall from single random variable discussion, the PDF is the derivative of the CDF. Therefore, for cases where there are multiple variables: \\
+
+\begin{center}
+    $f_{X,Y}(x,y) = \frac{\partial}{\partial x} \frac{\partial}{\partial y}F_{X,Y}(x,y)$ \\
+\end{center}
+
+For continous distributions, the variables $x$ and $y$ will be used, however discrete distributions use $k$, $l$, and so on. \\
+
+From each joint distribution, individual distributions for each variable, or \textbf{Marginal Distributions} can be found. These are simply the PDFs of the individual random variables found in earlier sections.
+
 \begin{center}
     \includegraphics[width=300 px]{img/marginal} \\
 \end{center}
@@ -689,8 +707,13 @@ For a partition $A_i$ where $I(A_i) = -\text{log}_2Pr[A_i]$, \\
 
 \subsubsection{Independent Random Variables}
 
+From earlier in the course, events were defined as independent if Pr[$AB$] = Pr[$A$]. Similarly, random variables can be said to be independent if the product of marginal distributions is equal to the joint distribution.
 \begin{center}
     $f_{K1K2}[k_1,k_2] = f_{K_1}[k_1]\cdot f_{K_2}[k_2]$
+\end{center}
+
+\begin{center}
+    $f_{X,Y}(x,y) = f_{X}(x)\cdot f_{Y}(y)$
 \end{center}
 
 Notice that this is a special condition for random variables and does not apply in general! In particular, if two random variables are not independent, there is no way that the joint PMF can be inferred from the marginals. In that case the marginals are insufficient to describe any joint properties between K1 and K2.
@@ -703,7 +726,6 @@ Notice that this is a special condition for random variables and does not apply 
     \includegraphics[width=300 px]{img/joint-cdf}  \\
 \end{center}
 
-
 \begin{center}
     \textbf{CDF} \\
     
@@ -714,6 +736,8 @@ Notice that this is a special condition for random variables and does not apply 
     \textbf{PDF} \\ 
     $F_{X_1X_2}(x_1,x_2) = \int_{-\infty}^{x_1} \int_{-\infty}^{x_2} f_{X_1X_2}(u_1,u_2)du_1du_2$
 \end{center}
+
+Joint continuity can be proven if the PDF evaluates to 1.
 
 \subsubsection{Marginal PDFs}
 
@@ -729,6 +753,7 @@ $f_{X_1}(x_1) = \int_{-\infty}^{\infty} f_{X_1X_2}(x_1,x_2)dx_2$
     \includegraphics[width=300 px]{img/marginal-pdf}  \\
 \end{center}
 
+\subsubsection{Correlation}
 
 \pagebreak
 
