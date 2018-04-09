@@ -285,11 +285,11 @@ A \textit{combination} is a way of choosing elements from a set in which order d
 Consider the following example: Lisa has $13$ different ornaments and she wants to give $3$ ornaments to her mom as a birthday gift (the order of the gifts does not matter). How many ways can she do this? \\
 
 We can think of Lisa giving her mom a first ornament, a second ornament, a third ornament, etc. This can be done in $P^{13}_3$ ways. However, Lisa's mom is receiving all three ornaments at once, so the order Lisa decides on the ornaments does not matter. 
-There are $3!$ reorderings of the chosen ornaments, implying the total number of ways for Lisa to give her mom an unordered set of $5$ ornaments is $\frac{13!}{10!3!}$. \\
+There are $3!$ reorderings of the chosen ornaments, implying the total number of ways for Lisa to give her mom an unordered set of $5$ ornaments is $\frac{13!}{3!10!}$. \\
 
 \begin{equ}[!ht]
     \begin{equation}
-        \frac{N!}{N!(N!-k!)}
+        \frac{N!}{k!(N!-k!)}
     \end{equation}
   \caption{Rule of Combinations or Unordered Permutations}
 \end{equ} 
