@@ -755,10 +755,150 @@ $f_{X_1}(x_1) = \int_{-\infty}^{\infty} f_{X_1X_2}(x_1,x_2)dx_2$
 
 \subsubsection{Correlation}
 
-\pagebreak
+Correlation is defined as the similarity between two random variables $X_1$ and $X_2$. Note that this is the multiplication of $X_1$ and $X_2$, not an "and".
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+    $r = E\{X_1X_2\}$
+\end{center}
 
-\section{Random Processes}
+The correlation is calculated using the expectation, worked out as the expectation for $g$($X_1,X_2$) = $X_1X_2$ based on the joint PDF for $X_1$ and $X_2$.
+
+\begin{center}
+    $r = E\{X_1X_2\}$ = $\int \int x_1x_2f_{X_1,X_2}(x_1,x_2)dx_1dx_2$
+\end{center}
+
+\begin{center}
+   $r = E\{KL\}$ = $\sum\limits_k \sum\limits_l klf_{K,L}(k,l)$
+\end{center}
+
+The correlation can be misleading if both $X_1$ and $X_2$ have offsets built in to their means. The get around this, \textit{covariance} is defined to remove their means. \\
+
+\begin{center}
+    \textbf{Covariance} $c = Cov[X_1,X_2]$ = $E\{(X_1 - m_1)(X_2 - m_2)\}$
+\end{center}
+
+Where $m_1$ and $m_2$ are the means of the two random variables taken seperately:
+
+\begin{center}
+    $m_1 = E\{X_1\} = \int x_1f_{X1}(x_1)dx_1$
+\end{center}
+
+\begin{center}
+    $m_2 = E\{X_2\} = \int x_1f_{X2}(x_2)dx_2$
+\end{center}
+
+\textit{Note} - Covariance is similar to variance, in that variance is a measure of how to the outcome of $X_1$ can vary, while covariance is the measure of how the outcome of $X_1$ and $X_2$ can vary together. \\
+
+Also similarly to variance: \\
+
+$\text{Var}[X] = E\{X^2\} - m^2_x$ \\
+$\text{Cov}[X_1,X_2] = E\{(X_1-m_1)(X_2-m_2)\} = E\{X_1X_2\} = m_1m_2 = r - m_1m_2$ \\
+
+\subsubsection{Correlation Coefficient}
+
+If comparing the correlation of one of pair of random variables to the correlation of another pair of random variables, both can be normalized based on their standar deviations: \\ 
+
+\begin{center}
+    $p = \frac{\text{Cov}[X_1,X_2]}{\sigma_1\sigma_2}$
+\end{center}
+
+Where $\sigma_1$ and $\sigma_2$ are the standard deviations of $X_1$ and $X_2$.
+
+\subsubsection{Invariance of Expectation}
+
+If a random variable $X$ with PDF $f_X(x)$ is transformed to another random variable $Y$ by a \textit{deterministic} relationship, $Y = g(X)$, e.g. \\ 
+
+\begin{center}
+    $Y = 3X +2$
+\end{center}
+
+Then moments for $Y$ can be obtained from the PDF of $X$, without calculating the new PDF $f_Y(y)$:
+
+\begin{center}
+    $E\{Y\} = \int g(x)f_X(x)dx$
+\end{center}
+
+\subsection{Sum of Multiple RVs}
+
+Because the expectation $E\{\}$ is an integral, for the case that $Y = X_1 + X_2$ for RVs $X_1$ and $X_2$:
+\begin{center}
+    $E\{Y\} = E\{X_1\} + E\{X_2\} = m_{X1} + m_{X2}$
+\end{center}
+
+Therefore, because variance will distribute via multiplication:
+\begin{center}
+    $\text{Var}[Y] = E\{(Y-m_Y)^2\} = E\{(X_1 + X_2) - (m_{X_1} + m_{X_2}))^2\}$
+\end{center}
+
+\begin{center}
+    $ = E\{((X_1 - m_{X_1}) + E\{(X_2 - m_{X_2}))^2\}$
+\end{center}
+
+\begin{center}
+    $ = E\{(X_1 - m_{X_1})^2 + E\{(X_2 + m_{X_2})^2 + 2E\{(X_1 = m_{X_1})(X_2 - m_{X_2}\}\}$
+\end{center}
+
+\begin{center}
+    $ \text{Var}[Y] = \text{Var}[X_1] + \text{Var}[X_2] + 2\text{Cov}[X_1,X_2]$
+\end{center}
+
+Var[$Y$] therefore also depends on Cov[$X_1,X_2$]. If $X_1$ and $X_2$ are independent, Cov[$X_1$,$X_2$] = 0, and Var[$Y$] = Var[$X_1$] + Var[$X_2$]. 
+
+\subsubsection{PDF for $X_1 + X_2$}
+
+Begin by finding the CDF in a method similar to discrete RVs:
+\begin{center}
+    $F_Y(y) = \text{Pr}[Y \leq y] = \text{Pr}[X_1 + X_2 \leq y]$ \\ 
+    = $\int (\int\limits^{y-x_1}_{-\infty}f_{X_1,X_2}(x_1,x_2)dx_2)dx_1$
+\end{center}
+
+Note the limit of integration for the $f_{X2}$ portion uses the upper limit as the equivalent of $x_2$ (because $y = x_1 + x_2$) \\ 
+
+The PDF can be obtained from this because $f_Y(y) = \frac{d}{dy}F_Y(y)$
+
+\begin{center}
+    $f_Y(y) = \frac{d}{dy} ß\int (\int\limits^{y-x_1}_{-\infty}f_{X_1,X_2}(x_1,x_2)dx_2)dx_1$
+\end{center}
+
+Because $\frac{d}{dt}\int\limits_{-\infty}^{t-a}g(\theta)d\theta = g(t-a)$, \\
+
+\begin{center}
+    $f_Y(y) = \int\limits_{-\infty}^{\infty}f_{X_1,X_2}(x_1,y-x_1)dx_1$
+\end{center}
+
+If the two RVs are independent,
+
+\begin{center}
+    $f_Y(y) = \int\limits^{\infty}_{-\infty}f_{X_1}(x_1)f_{X_2}(y-x_1)dx_1$
+\end{center}
+
+\subsubsection{Notes on Sums of Independent RVs}
+
+\begin{enumerate}
+    \item When $X_1$ and $X_2$ are independent, Cov[$X_1,X_2$] = 0 and Var[$Y$] = Var[$X_1$] + Var[$X_2$], while $m_Y = E\{Y\} = E\{X_1\} + E\{X_2\} = m_{X_1} + m_{X_2}$
+    \item If $X_1$ and $X_2$ have the same distribution, $m_{X_1} = m_{X_2} = m$
+\end{enumerate}
+
+\subsubsection{Sums of Dependent RVs}
+
+In the case of $Y = X_1 + X_2$, if $X_1$ and $X_2$ are not independent, then:
+
+\begin{center}
+$f_Y(y) = \int\limits^{\infty}_{-\infty}f_{X_1,X_2}(x_1,y - x_1)dx_1$ \\
+
+$m_Y = E\{Y\} = E\{X_1\} + E\{X_2\} = m_{X_1} + m_{X_2}$ \\
+
+Var[$Y$] = $E\{(Y - m_Y)^2\} = \text{Var}[X_1] _ \text{Var}[X_2] + 2\text{Cov}[X_1,X_2]$
+\end{center}
+
+
+
+\subsection{Bivariate Gaussian}
+
+Two joint RVs with Gaussian characteristics together will have a joint Gaussian characteristic, called \textit{bivariate} or \textit{multi-variate} for more than 2.
+
+\begin{center}
+    \includegraphics[width=300 px]{img/bivariate}  \\
+\end{center}
 
 \end{document}
