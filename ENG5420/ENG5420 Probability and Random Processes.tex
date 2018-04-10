@@ -539,7 +539,7 @@ In cases where the probablity of values at either tail of a Gaussian is required
   \caption{The Gaussian Q Function}
 \end{equ} 
 
-When a value $x$ is sought which is less than $\mu$, the argument of the $Q$ function will be negative, and define the left tail of the CDF. 
+When a value $x$ is sought which is less than $\mu$, the argument of the $Q$ function will be negative, and define the left tail of the CDF. $Q(-x) = 1 - Q(x)$.
 
 
 \begin{center}
@@ -556,7 +556,7 @@ When a value $x$ is sought which is less than $\mu$, the argument of the $Q$ fun
 
 \begin{equ}[!ht]
     \begin{equation}
-        Pr[X > x] = Q(\frac{- x + \mu}{\sigma})
+        Pr[X > x] = 1- Q(x) = Q(\frac{- x + \mu}{\sigma})
     \end{equation}
   \caption{The Gaussian Q Function with Negative Argument}
 \end{equ} 
