@@ -588,7 +588,7 @@ For continuous random variables, when the PDF exists, the expectation can be cal
     \begin{equation}
         E\{X\} = \int_{-\infty}^{\infty}xf_X(x)dx 
     \end{equation}
-  \caption{Expectation of a Continous RV}
+  \caption{Expectation of a Continuous RV}
 \end{equ} 
 
 An important feature of the expectation is its \textbf{invariance}.
@@ -607,7 +607,7 @@ An important feature of the expectation is its \textbf{invariance}.
 
 The moment is the produced when the $X$ value of the expectation is raised to the $n$ power. If $g(X) = X^n$ for $n$ = 1, 2, 3 \\
 
-        $E\{X^n\} = \int_{-\infty}^{\infty}x^nf_X(x)dx$  (continous) \\
+        $E\{X^n\} = \int_{-\infty}^{\infty}x^nf_X(x)dx$  (continuous) \\
 
         $E\{X^n\} = \sum k^n f_K[k] $  (discrete) \\ 
 
@@ -686,7 +686,7 @@ Recall from single random variable discussion, the PDF is the derivative of the 
     $f_{X,Y}(x,y) = \frac{\partial}{\partial x} \frac{\partial}{\partial y}F_{X,Y}(x,y)$ \\
 \end{center}
 
-For continous distributions, the variables $x$ and $y$ will be used, however discrete distributions use $k$, $l$, and so on. \\
+For continuous distributions, the variables $x$ and $y$ will be used, however discrete distributions use $k$, $l$, and so on. \\
 
 From each joint distribution, individual distributions for each variable, or \textbf{Marginal Distributions} can be found. These are simply the PDFs of the individual random variables found in earlier sections.
 
@@ -891,14 +891,30 @@ $m_Y = E\{Y\} = E\{X_1\} + E\{X_2\} = m_{X_1} + m_{X_2}$ \\
 Var[$Y$] = $E\{(Y - m_Y)^2\} = \text{Var}[X_1] _ \text{Var}[X_2] + 2\text{Cov}[X_1,X_2]$
 \end{center}
 
-
-
 \subsection{Bivariate Gaussian}
 
 Two joint RVs with Gaussian characteristics together will have a joint Gaussian characteristic, called \textit{bivariate} or \textit{multi-variate} for more than 2.
 
 \begin{center}
     \includegraphics[width=300 px]{img/bivariate}  \\
+\end{center}
+
+\section{Limit Theorems}
+
+\begin{center}
+    $M_n = \frac{1}{n} \sum\limits^n_{i = 1}K_i$
+\end{center}
+
+\begin{center}
+    $E\{Y_n\} = mY_n = nm_x$
+\end{center}
+
+\begin{center}
+    $\text{Var}[Y_n] = \sigma_{Y_n}^2 = n\sigma^2_x$
+\end{center}
+
+\begin{center}
+    $Z_n = \frac{Y_n - mY_n}{\sigma Y_n} = \frac{Y_n - nm_x}{\sqrt{n}\sigma_x}$
 \end{center}
 
 \end{document}
